@@ -1,0 +1,212 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:22,  1.23s/it]Loading weights:  71%|███████   | 221/311 [00:01<00:00, 229.23it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 215.63it/s]
+dev @0 {"update": 0, "caption_loss": 5.743044508000215, "ground_dev/nll_correct": 9.474680735729635, "ground_dev/nll_complementary": 9.94245419340829, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.4677734576786558, "ground_dev/delta_nll/counting": -0.0779622041930755, "ground_dev/delta_nll/presence": 1.0135091195503871, "ground_dev/acc_correct": 0.0625, "vqa_dev/nll_correct": 9.987126667052507, "vqa_dev/nll_complementary": 10.029263175325468, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.04213650827296078, "vqa_dev/delta_nll/number": -0.1874463064596057, "vqa_dev/delta_nll/other": -0.10495694975058238, "vqa_dev/delta_nll/yes/no": 0.3422851761182149, "vqa_dev/acc_correct": 0.0515625, "eval_seconds": 19.910537242889404}
+stage 1 caption_alignment: updates 0->2250, trainable 1,837,056
+[1/4500] s1 loss=5.6215 gn=303.32 lr=8.85e-06 1.29s/upd
+[25/4500] s1 loss=4.5923 gn=222.66 lr=2.21e-04 1.28s/upd
+[50/4500] s1 loss=4.3095 gn=24.32 lr=4.42e-04 1.22s/upd
+[75/4500] s1 loss=3.9147 gn=4.33 lr=6.64e-04 1.22s/upd
+[100/4500] s1 loss=3.6081 gn=2.58 lr=8.85e-04 1.22s/upd
+[125/4500] s1 loss=3.2407 gn=1.14 lr=1.00e-03 1.21s/upd
+[150/4500] s1 loss=2.7837 gn=1.31 lr=9.99e-04 1.23s/upd
+[175/4500] s1 loss=3.2480 gn=1.45 lr=9.98e-04 1.22s/upd
+[200/4500] s1 loss=2.4247 gn=0.97 lr=9.96e-04 1.22s/upd
+[225/4500] s1 loss=3.1846 gn=1.37 lr=9.94e-04 1.21s/upd
+[250/4500] s1 loss=3.1240 gn=1.08 lr=9.91e-04 1.22s/upd
+[275/4500] s1 loss=2.5892 gn=0.84 lr=9.87e-04 1.26s/upd
+[300/4500] s1 loss=3.2100 gn=0.90 lr=9.83e-04 1.24s/upd
+[325/4500] s1 loss=2.6057 gn=0.89 lr=9.79e-04 1.23s/upd
+[350/4500] s1 loss=2.5103 gn=0.77 lr=9.73e-04 1.21s/upd
+[375/4500] s1 loss=2.5816 gn=1.00 lr=9.67e-04 1.25s/upd
+[400/4500] s1 loss=2.7231 gn=0.69 lr=9.61e-04 1.22s/upd
+[425/4500] s1 loss=2.4169 gn=0.68 lr=9.54e-04 1.24s/upd
+[450/4500] s1 loss=2.8086 gn=0.81 lr=9.46e-04 1.22s/upd
+[475/4500] s1 loss=2.8188 gn=0.76 lr=9.38e-04 1.22s/upd
+[500/4500] s1 loss=2.3872 gn=0.77 lr=9.29e-04 1.22s/upd
+dev @500 {"update": 500, "caption_loss": 2.8164741788059473, "ground_dev/nll_correct": 3.731738275537888, "ground_dev/nll_complementary": 4.654101561754942, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.9223632862170538, "ground_dev/delta_nll/counting": 0.026041676600774128, "ground_dev/delta_nll/presence": 1.8186848958333333, "ground_dev/acc_correct": 0.1875, "vqa_dev/nll_correct": 3.8670717941131443, "vqa_dev/nll_complementary": 4.215888845734298, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.34881705162115395, "vqa_dev/delta_nll/number": 0.20897365733981133, "vqa_dev/delta_nll/other": 0.7687275862942139, "vqa_dev/delta_nll/yes/no": 0.022135446468989056, "vqa_dev/acc_correct": 0.2234375, "eval_seconds": 14.37910270690918}
+[525/4500] s1 loss=2.7762 gn=0.74 lr=9.20e-04 1.23s/upd
+[550/4500] s1 loss=2.4098 gn=0.72 lr=9.11e-04 1.25s/upd
+[575/4500] s1 loss=2.6470 gn=0.64 lr=9.01e-04 1.23s/upd
+[600/4500] s1 loss=2.6670 gn=0.74 lr=8.90e-04 1.23s/upd
+[625/4500] s1 loss=2.6253 gn=0.70 lr=8.79e-04 1.23s/upd
+[650/4500] s1 loss=2.5017 gn=0.72 lr=8.67e-04 1.23s/upd
+[675/4500] s1 loss=2.7190 gn=0.70 lr=8.55e-04 1.23s/upd
+[700/4500] s1 loss=2.4281 gn=0.78 lr=8.43e-04 1.25s/upd
+[725/4500] s1 loss=2.7333 gn=0.67 lr=8.30e-04 1.24s/upd
+[750/4500] s1 loss=2.5426 gn=0.63 lr=8.17e-04 1.26s/upd
+[775/4500] s1 loss=2.2305 gn=0.73 lr=8.04e-04 1.22s/upd
+[800/4500] s1 loss=2.3230 gn=0.75 lr=7.90e-04 1.24s/upd
+[825/4500] s1 loss=2.8621 gn=0.77 lr=7.76e-04 1.39s/upd
+[850/4500] s1 loss=2.1913 gn=0.64 lr=7.61e-04 1.23s/upd
+[875/4500] s1 loss=2.7482 gn=0.80 lr=7.47e-04 1.22s/upd
+[900/4500] s1 loss=2.2201 gn=0.65 lr=7.32e-04 1.24s/upd
+[925/4500] s1 loss=2.0427 gn=0.60 lr=7.16e-04 1.23s/upd
+[950/4500] s1 loss=2.3713 gn=0.65 lr=7.01e-04 1.23s/upd
+[975/4500] s1 loss=2.0043 gn=0.62 lr=6.85e-04 1.23s/upd
+[1000/4500] s1 loss=2.4876 gn=0.83 lr=6.69e-04 1.24s/upd
+dev @1000 {"update": 1000, "caption_loss": 2.6302044255038104, "ground_dev/nll_correct": 3.9243558968106904, "ground_dev/nll_complementary": 4.542682698617379, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.6183268018066883, "ground_dev/delta_nll/counting": 0.057942695915699005, "ground_dev/delta_nll/presence": 1.1787109076976776, "ground_dev/acc_correct": 0.16666666666666666, "vqa_dev/nll_correct": 3.8116153767332435, "vqa_dev/nll_complementary": 4.237368244677782, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.4257528679445386, "vqa_dev/delta_nll/number": 0.11205153539776802, "vqa_dev/delta_nll/other": 0.8975540200869242, "vqa_dev/delta_nll/yes/no": 0.1630859375, "vqa_dev/acc_correct": 0.1765625, "eval_seconds": 14.941863775253296}
+[1025/4500] s1 loss=2.3838 gn=0.73 lr=6.53e-04 1.23s/upd
+[1050/4500] s1 loss=1.9256 gn=0.63 lr=6.37e-04 1.22s/upd
+[1075/4500] s1 loss=2.7891 gn=0.65 lr=6.21e-04 1.22s/upd
+[1100/4500] s1 loss=2.3954 gn=0.64 lr=6.04e-04 1.23s/upd
+[1125/4500] s1 loss=2.3358 gn=0.59 lr=5.88e-04 1.22s/upd
+[1150/4500] s1 loss=2.3401 gn=0.76 lr=5.71e-04 1.21s/upd
+[1175/4500] s1 loss=2.1897 gn=0.67 lr=5.55e-04 1.35s/upd
+[1200/4500] s1 loss=2.3771 gn=0.64 lr=5.38e-04 1.23s/upd
+[1225/4500] s1 loss=2.1787 gn=0.68 lr=5.22e-04 1.24s/upd
+[1250/4500] s1 loss=2.4565 gn=0.71 lr=5.05e-04 1.24s/upd
+[1275/4500] s1 loss=2.3930 gn=0.69 lr=4.89e-04 1.24s/upd
+[1300/4500] s1 loss=2.0402 gn=0.76 lr=4.73e-04 1.23s/upd
+[1325/4500] s1 loss=2.0439 gn=0.66 lr=4.56e-04 1.22s/upd
+[1350/4500] s1 loss=1.9248 gn=0.67 lr=4.40e-04 1.24s/upd
+[1375/4500] s1 loss=2.2442 gn=0.84 lr=4.24e-04 1.22s/upd
+[1400/4500] s1 loss=2.4092 gn=0.78 lr=4.09e-04 1.23s/upd
+[1425/4500] s1 loss=2.3432 gn=0.73 lr=3.93e-04 1.23s/upd
+[1450/4500] s1 loss=2.1161 gn=0.79 lr=3.78e-04 1.21s/upd
+[1475/4500] s1 loss=2.6572 gn=0.74 lr=3.62e-04 1.22s/upd
+[1500/4500] s1 loss=2.1644 gn=0.64 lr=3.48e-04 1.23s/upd
+dev @1500 {"update": 1500, "caption_loss": 2.547500589862466, "ground_dev/nll_correct": 4.693720169365406, "ground_dev/nll_complementary": 5.02029891187946, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.326578742514054, "ground_dev/delta_nll/counting": 0.08463538934787114, "ground_dev/delta_nll/presence": 0.5685220956802368, "ground_dev/acc_correct": 0.16666666666666666, "vqa_dev/nll_correct": 4.923731748946011, "vqa_dev/nll_complementary": 5.368669080547988, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.44493733160197735, "vqa_dev/delta_nll/number": 0.15222285687923431, "vqa_dev/delta_nll/other": 0.8200436681509018, "vqa_dev/delta_nll/yes/no": 0.2649739782015483, "vqa_dev/acc_correct": 0.15, "eval_seconds": 15.183528423309326}
+[1525/4500] s1 loss=2.0033 gn=0.76 lr=3.33e-04 1.23s/upd
+[1550/4500] s1 loss=1.9737 gn=0.83 lr=3.19e-04 1.21s/upd
+[1575/4500] s1 loss=1.9334 gn=0.69 lr=3.05e-04 1.25s/upd
+[1600/4500] s1 loss=2.5990 gn=0.75 lr=2.91e-04 1.25s/upd
+[1625/4500] s1 loss=2.0352 gn=0.69 lr=2.77e-04 1.24s/upd
+[1650/4500] s1 loss=2.6285 gn=0.71 lr=2.65e-04 1.22s/upd
+[1675/4500] s1 loss=2.1110 gn=0.69 lr=2.52e-04 1.22s/upd
+[1700/4500] s1 loss=2.0755 gn=0.74 lr=2.40e-04 1.24s/upd
+[1725/4500] s1 loss=2.3440 gn=0.94 lr=2.28e-04 1.23s/upd
+[1750/4500] s1 loss=2.2090 gn=0.70 lr=2.17e-04 1.23s/upd
+[1775/4500] s1 loss=2.3710 gn=0.85 lr=2.06e-04 1.23s/upd
+[1800/4500] s1 loss=2.0477 gn=0.76 lr=1.95e-04 1.24s/upd
+[1825/4500] s1 loss=2.2563 gn=0.87 lr=1.85e-04 1.25s/upd
+[1850/4500] s1 loss=2.4016 gn=0.75 lr=1.76e-04 1.23s/upd
+[1875/4500] s1 loss=2.1722 gn=0.77 lr=1.67e-04 1.22s/upd
+[1900/4500] s1 loss=2.6800 gn=0.77 lr=1.59e-04 1.23s/upd
+[1925/4500] s1 loss=2.2436 gn=0.72 lr=1.51e-04 1.22s/upd
+[1950/4500] s1 loss=2.2565 gn=0.72 lr=1.43e-04 1.24s/upd
+[1975/4500] s1 loss=2.2741 gn=0.76 lr=1.37e-04 1.24s/upd
+[2000/4500] s1 loss=1.9727 gn=0.78 lr=1.30e-04 1.23s/upd
+dev @2000 {"update": 2000, "caption_loss": 2.5077132377773523, "ground_dev/nll_correct": 3.6020194304486117, "ground_dev/nll_complementary": 4.0873710103333, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.4853515798846881, "ground_dev/delta_nll/counting": 0.07617189983526866, "ground_dev/delta_nll/presence": 0.8945312599341074, "ground_dev/acc_correct": 0.16666666666666666, "vqa_dev/nll_correct": 4.352674323134124, "vqa_dev/nll_complementary": 4.841235569678247, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.4885612465441227, "vqa_dev/delta_nll/number": 0.13477711006999016, "vqa_dev/delta_nll/other": 0.9961817190051079, "vqa_dev/delta_nll/yes/no": 0.21679686506589255, "vqa_dev/acc_correct": 0.1296875, "eval_seconds": 15.376387119293213}
+[2025/4500] s1 loss=2.2603 gn=0.75 lr=1.25e-04 1.24s/upd
+[2050/4500] s1 loss=2.2286 gn=0.71 lr=1.20e-04 1.26s/upd
+[2075/4500] s1 loss=2.3017 gn=0.87 lr=1.15e-04 1.25s/upd
+[2100/4500] s1 loss=2.3582 gn=0.85 lr=1.11e-04 1.22s/upd
+[2125/4500] s1 loss=2.0607 gn=0.75 lr=1.08e-04 1.22s/upd
+[2150/4500] s1 loss=1.9506 gn=0.79 lr=1.05e-04 1.22s/upd
+[2175/4500] s1 loss=1.9387 gn=0.74 lr=1.03e-04 1.23s/upd
+[2200/4500] s1 loss=1.9569 gn=0.74 lr=1.01e-04 1.22s/upd
+[2225/4500] s1 loss=2.0025 gn=0.73 lr=1.00e-04 1.33s/upd
+[2250/4500] s1 loss=2.2321 gn=0.92 lr=1.00e-04 1.23s/upd
+dev @2250 {"update": 2250, "caption_loss": 2.507350048671166, "ground_dev/nll_correct": 3.6819696749250093, "ground_dev/nll_complementary": 4.157230071723461, "ground_dev/nll_none": 3.8961976437518993, "ground_dev/delta_nll": 0.4752603967984517, "ground_dev/delta_nll/counting": 0.09114582339922588, "ground_dev/delta_nll/presence": 0.8593749701976776, "ground_dev/acc_correct": 0.125, "vqa_dev/nll_correct": 4.575886517763138, "vqa_dev/nll_complementary": 5.030869509093463, "vqa_dev/nll_none": 4.290124173276126, "vqa_dev/delta_nll": 0.4549829913303256, "vqa_dev/delta_nll/number": 0.09931344538927078, "vqa_dev/delta_nll/other": 0.9452560966213545, "vqa_dev/delta_nll/yes/no": 0.20182291666666666, "vqa_dev/acc_correct": 0.0984375, "eval_seconds": 15.908074140548706}
+stage 1 done; weights saved
+stage 2 visual_instruction: updates 2250->3750, trainable 6,424,576
+[2275/4500] s2 loss=0.8907 gn=9.33 lr=3.33e-05 1.37s/upd
+[2300/4500] s2 loss=0.5632 gn=6.21 lr=6.67e-05 1.56s/upd
+[2325/4500] s2 loss=1.0926 gn=8.38 lr=1.00e-04 1.36s/upd
+[2350/4500] s2 loss=0.5880 gn=3.37 lr=9.99e-05 1.35s/upd
+[2375/4500] s2 loss=0.3662 gn=14.46 lr=9.97e-05 1.56s/upd
+[2400/4500] s2 loss=1.0412 gn=8.77 lr=9.94e-05 1.40s/upd
+[2425/4500] s2 loss=0.5507 gn=4.11 lr=9.89e-05 1.35s/upd
+[2450/4500] s2 loss=0.5582 gn=3.71 lr=9.83e-05 1.47s/upd
+[2475/4500] s2 loss=0.7796 gn=5.61 lr=9.76e-05 1.36s/upd
+[2500/4500] s2 loss=0.5345 gn=3.94 lr=9.67e-05 1.35s/upd
+dev @2500 {"update": 2500, "caption_loss": 2.5160308045645556, "ground_dev/nll_correct": 0.7559084164692346, "ground_dev/nll_complementary": 4.455452682372804, "ground_dev/nll_none": 1.9452637871727347, "ground_dev/delta_nll": 3.699544265903569, "ground_dev/delta_nll/counting": 1.0371093756208818, "ground_dev/delta_nll/presence": 6.361979156186256, "ground_dev/acc_correct": 0.6666666666666666, "vqa_dev/nll_correct": 1.939306569747714, "vqa_dev/nll_complementary": 3.023730423345114, "vqa_dev/nll_none": 3.2783569479361176, "vqa_dev/delta_nll": 1.0844238535974, "vqa_dev/delta_nll/number": 0.8786627007648349, "vqa_dev/delta_nll/other": 1.524120774275313, "vqa_dev/delta_nll/yes/no": 0.781901034807864, "vqa_dev/acc_correct": 0.503125, "eval_seconds": 13.161234855651855}
+[2525/4500] s2 loss=1.2550 gn=2.97 lr=9.57e-05 1.38s/upd
+[2550/4500] s2 loss=0.7549 gn=2.01 lr=9.46e-05 1.37s/upd
+[2575/4500] s2 loss=0.7693 gn=2.77 lr=9.34e-05 1.56s/upd
+[2600/4500] s2 loss=0.6879 gn=2.39 lr=9.20e-05 1.37s/upd
+[2625/4500] s2 loss=0.1557 gn=2.40 lr=9.06e-05 1.34s/upd
+[2650/4500] s2 loss=0.2361 gn=3.43 lr=8.90e-05 1.36s/upd
+[2675/4500] s2 loss=0.9793 gn=3.13 lr=8.73e-05 1.37s/upd
+[2700/4500] s2 loss=0.7861 gn=3.76 lr=8.56e-05 1.36s/upd
+[2725/4500] s2 loss=0.7155 gn=3.60 lr=8.37e-05 1.35s/upd
+[2750/4500] s2 loss=0.4847 gn=2.96 lr=8.17e-05 1.37s/upd
+[2775/4500] s2 loss=1.1184 gn=2.11 lr=7.97e-05 1.37s/upd
+[2800/4500] s2 loss=0.7142 gn=2.23 lr=7.76e-05 1.36s/upd
+[2825/4500] s2 loss=0.6833 gn=1.54 lr=7.54e-05 1.37s/upd
+[2850/4500] s2 loss=0.7211 gn=2.66 lr=7.32e-05 1.36s/upd
+[2875/4500] s2 loss=1.1121 gn=3.78 lr=7.09e-05 1.36s/upd
+[2900/4500] s2 loss=0.3800 gn=2.29 lr=6.85e-05 1.36s/upd
+[2925/4500] s2 loss=0.8072 gn=2.69 lr=6.61e-05 1.37s/upd
+[2950/4500] s2 loss=0.7312 gn=3.57 lr=6.37e-05 1.37s/upd
+[2975/4500] s2 loss=0.9002 gn=4.18 lr=6.13e-05 1.36s/upd
+[3000/4500] s2 loss=0.3985 gn=3.43 lr=5.88e-05 1.46s/upd
+dev @3000 {"update": 3000, "caption_loss": 2.4990345469365516, "ground_dev/nll_correct": 0.6655075498723212, "ground_dev/nll_complementary": 3.9968877526310584, "ground_dev/nll_none": 1.695588074779759, "ground_dev/delta_nll": 3.331380202758737, "ground_dev/delta_nll/counting": 1.3196614435873926, "ground_dev/delta_nll/presence": 5.343098961930082, "ground_dev/acc_correct": 0.7083333333333334, "vqa_dev/nll_correct": 1.7680112434500188, "vqa_dev/nll_complementary": 2.8788305574271362, "vqa_dev/nll_none": 3.3202040317701176, "vqa_dev/delta_nll": 1.1108193139771174, "vqa_dev/delta_nll/number": 0.8911141147837043, "vqa_dev/delta_nll/other": 1.6819108260485034, "vqa_dev/delta_nll/yes/no": 0.6861979347013403, "vqa_dev/acc_correct": 0.4921875, "eval_seconds": 13.112397193908691}
+[3025/4500] s2 loss=1.0723 gn=3.77 lr=5.63e-05 1.37s/upd
+[3050/4500] s2 loss=0.5584 gn=5.35 lr=5.39e-05 1.57s/upd
+[3075/4500] s2 loss=0.5343 gn=3.17 lr=5.14e-05 1.36s/upd
+[3100/4500] s2 loss=0.9343 gn=4.24 lr=4.89e-05 1.37s/upd
+[3125/4500] s2 loss=0.5565 gn=3.00 lr=4.65e-05 1.38s/upd
+[3150/4500] s2 loss=0.7843 gn=3.67 lr=4.40e-05 1.36s/upd
+[3175/4500] s2 loss=0.2322 gn=0.96 lr=4.17e-05 1.55s/upd
+[3200/4500] s2 loss=0.4432 gn=1.70 lr=3.93e-05 1.34s/upd
+[3225/4500] s2 loss=0.6379 gn=4.42 lr=3.70e-05 1.49s/upd
+[3250/4500] s2 loss=1.8066 gn=2.26 lr=3.48e-05 1.38s/upd
+[3275/4500] s2 loss=0.6787 gn=5.27 lr=3.26e-05 1.56s/upd
+[3300/4500] s2 loss=1.4719 gn=4.60 lr=3.05e-05 1.41s/upd
+[3325/4500] s2 loss=0.2965 gn=2.31 lr=2.84e-05 1.36s/upd
+[3350/4500] s2 loss=0.2136 gn=1.98 lr=2.65e-05 1.36s/upd
+[3375/4500] s2 loss=0.9263 gn=5.69 lr=2.46e-05 1.37s/upd
+[3400/4500] s2 loss=1.5453 gn=2.29 lr=2.28e-05 1.40s/upd
+[3425/4500] s2 loss=0.6178 gn=1.77 lr=2.11e-05 1.59s/upd
+[3450/4500] s2 loss=0.9891 gn=4.27 lr=1.95e-05 1.37s/upd
+[3475/4500] s2 loss=0.4477 gn=3.47 lr=1.81e-05 1.35s/upd
+[3500/4500] s2 loss=0.6403 gn=5.48 lr=1.67e-05 1.36s/upd
+dev @3500 {"update": 3500, "caption_loss": 2.4808096730460725, "ground_dev/nll_correct": 0.6390595363003134, "ground_dev/nll_complementary": 4.49583035800606, "ground_dev/nll_none": 1.6131070414558053, "ground_dev/delta_nll": 3.8567708217057466, "ground_dev/delta_nll/counting": 1.951822917520379, "ground_dev/delta_nll/presence": 5.7617187258911144, "ground_dev/acc_correct": 0.7083333333333334, "vqa_dev/nll_correct": 1.8757758303872833, "vqa_dev/nll_complementary": 3.081126324424986, "vqa_dev/nll_none": 3.290204713586718, "vqa_dev/delta_nll": 1.2053504940377024, "vqa_dev/delta_nll/number": 1.0219731675460935, "vqa_dev/delta_nll/other": 1.6976660842386384, "vqa_dev/delta_nll/yes/no": 0.8352864548311724, "vqa_dev/acc_correct": 0.5078125, "eval_seconds": 13.059677124023438}
+[3525/4500] s2 loss=0.5593 gn=4.14 lr=1.55e-05 1.36s/upd
+[3550/4500] s2 loss=0.8503 gn=3.78 lr=1.43e-05 1.38s/upd
+[3575/4500] s2 loss=0.5276 gn=2.30 lr=1.33e-05 1.37s/upd
+[3600/4500] s2 loss=0.5059 gn=3.28 lr=1.25e-05 1.37s/upd
+[3625/4500] s2 loss=0.4027 gn=3.74 lr=1.17e-05 1.37s/upd
+[3650/4500] s2 loss=0.3170 gn=3.14 lr=1.11e-05 1.35s/upd
+[3675/4500] s2 loss=0.3936 gn=3.67 lr=1.06e-05 1.35s/upd
+[3700/4500] s2 loss=0.9317 gn=2.17 lr=1.03e-05 1.38s/upd
+[3725/4500] s2 loss=0.6373 gn=4.52 lr=1.01e-05 1.35s/upd
+[3750/4500] s2 loss=0.8098 gn=1.64 lr=1.00e-05 1.38s/upd
+dev @3750 {"update": 3750, "caption_loss": 2.4858429773400226, "ground_dev/nll_correct": 0.597526254481636, "ground_dev/nll_complementary": 4.664909059725081, "ground_dev/nll_none": 1.6391315618529916, "ground_dev/delta_nll": 4.067382805243445, "ground_dev/delta_nll/counting": 2.21809894265607, "ground_dev/delta_nll/presence": 5.91666666783082, "ground_dev/acc_correct": 0.6666666666666666, "vqa_dev/nll_correct": 1.8525172890404065, "vqa_dev/nll_complementary": 3.081419706053566, "vqa_dev/nll_none": 3.2985799729358405, "vqa_dev/delta_nll": 1.2289024170131597, "vqa_dev/delta_nll/number": 1.1252445506397635, "vqa_dev/delta_nll/other": 1.6935767639273156, "vqa_dev/delta_nll/yes/no": 0.8333333143479346, "vqa_dev/acc_correct": 0.4921875, "eval_seconds": 13.048063516616821}
+stage 2 done; weights saved
+stage 3 natural_vqa: updates 3750->4500, trainable 6,424,576
+[3775/4500] s3 loss=0.8120 gn=6.85 lr=3.29e-05 1.36s/upd
+[3800/4500] s3 loss=0.6618 gn=5.00 lr=5.00e-05 1.37s/upd
+[3825/4500] s3 loss=0.2816 gn=5.74 lr=4.97e-05 1.35s/upd
+[3850/4500] s3 loss=0.4997 gn=6.32 lr=4.92e-05 1.35s/upd
+[3875/4500] s3 loss=1.0515 gn=2.87 lr=4.84e-05 1.37s/upd
+[3900/4500] s3 loss=0.9405 gn=4.63 lr=4.74e-05 1.37s/upd
+[3925/4500] s3 loss=0.7622 gn=5.68 lr=4.61e-05 1.38s/upd
+[3950/4500] s3 loss=0.3181 gn=2.89 lr=4.46e-05 1.35s/upd
+[3975/4500] s3 loss=0.6957 gn=2.98 lr=4.28e-05 1.36s/upd
+[4000/4500] s3 loss=0.5552 gn=5.44 lr=4.09e-05 1.36s/upd
+dev @4000 {"update": 4000, "caption_loss": 2.4898658512781062, "ground_dev/nll_correct": 0.6111626378466705, "ground_dev/nll_complementary": 3.2397433795655766, "ground_dev/nll_none": 1.257012396895637, "ground_dev/delta_nll": 2.628580741718906, "ground_dev/delta_nll/counting": 1.4557292059374352, "ground_dev/delta_nll/presence": 3.801432277500377, "ground_dev/acc_correct": 0.6875, "vqa_dev/nll_correct": 1.0654365874652285, "vqa_dev/nll_complementary": 2.177265299251303, "vqa_dev/nll_none": 2.3416449254145846, "vqa_dev/delta_nll": 1.1118287117860746, "vqa_dev/delta_nll/number": 1.1223569214344025, "vqa_dev/delta_nll/other": 1.9210656913928688, "vqa_dev/delta_nll/yes/no": 0.2955729257470618, "vqa_dev/acc_correct": 0.4984375, "eval_seconds": 13.024688720703125}
+[4025/4500] s3 loss=0.6649 gn=5.69 lr=3.89e-05 1.37s/upd
+[4050/4500] s3 loss=1.7761 gn=18.05 lr=3.67e-05 1.37s/upd
+[4075/4500] s3 loss=0.2727 gn=2.89 lr=3.43e-05 1.35s/upd
+[4100/4500] s3 loss=0.4747 gn=3.67 lr=3.19e-05 1.35s/upd
+[4125/4500] s3 loss=0.4768 gn=4.49 lr=2.95e-05 1.37s/upd
+[4150/4500] s3 loss=0.8899 gn=6.34 lr=2.70e-05 1.36s/upd
+[4175/4500] s3 loss=1.0527 gn=7.85 lr=2.45e-05 1.37s/upd
+[4200/4500] s3 loss=0.8721 gn=4.32 lr=2.21e-05 1.39s/upd
+[4225/4500] s3 loss=0.5233 gn=4.60 lr=1.97e-05 1.36s/upd
+[4250/4500] s3 loss=0.3898 gn=5.45 lr=1.74e-05 1.35s/upd
+[4275/4500] s3 loss=0.6665 gn=5.56 lr=1.53e-05 1.36s/upd
+[4300/4500] s3 loss=0.2443 gn=5.94 lr=1.33e-05 1.56s/upd
+[4325/4500] s3 loss=0.7447 gn=5.57 lr=1.15e-05 1.36s/upd
+[4350/4500] s3 loss=0.8025 gn=7.55 lr=9.81e-06 1.35s/upd
+[4375/4500] s3 loss=0.3795 gn=3.55 lr=8.39e-06 1.36s/upd
+[4400/4500] s3 loss=0.2436 gn=3.47 lr=7.20e-06 1.36s/upd
+[4425/4500] s3 loss=0.1951 gn=2.83 lr=6.25e-06 1.36s/upd
+[4450/4500] s3 loss=0.4964 gn=4.24 lr=5.57e-06 1.35s/upd
+[4475/4500] s3 loss=0.4121 gn=2.98 lr=5.15e-06 1.36s/upd
+[4500/4500] s3 loss=0.1844 gn=2.59 lr=5.00e-06 1.35s/upd
+dev @4500 {"update": 4500, "caption_loss": 2.4960028746475778, "ground_dev/nll_correct": 0.5992988425793252, "ground_dev/nll_complementary": 3.8538561362462738, "ground_dev/nll_none": 1.2581711231420438, "ground_dev/delta_nll": 3.2545572936669487, "ground_dev/delta_nll/counting": 2.016927087524285, "ground_dev/delta_nll/presence": 4.492187499809613, "ground_dev/acc_correct": 0.75, "vqa_dev/nll_correct": 1.045399505259411, "vqa_dev/nll_complementary": 2.308693952159956, "vqa_dev/nll_none": 2.3227263238222804, "vqa_dev/delta_nll": 1.2632944469005452, "vqa_dev/delta_nll/number": 1.3029297180473804, "vqa_dev/delta_nll/other": 2.112795580585953, "vqa_dev/delta_nll/yes/no": 0.3873697991172473, "vqa_dev/acc_correct": 0.503125, "eval_seconds": 13.108054161071777}
+stage 3 done; weights saved
+DONE {"stages": {"caption_alignment": {"trainable_params": 1837056, "train_seconds": 2775.323942899704, "peak_gpu_mem_gb": 1.7043652534484863, "skipped_updates": []}, "visual_instruction": {"trainable_params": 6424576, "train_seconds": 2089.672478199005, "peak_gpu_mem_gb": 1.7570180892944336, "skipped_updates": []}, "natural_vqa": {"trainable_params": 6424576, "train_seconds": 1027.9534106254578, "peak_gpu_mem_gb": 1.7569265365600586, "skipped_updates": []}}, "total_train_seconds": 5892.949831724167}
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:26,  3.60it/s]Loading weights:  44%|████▍     | 138/311 [00:00<00:00, 462.35it/s]Loading weights:  70%|██████▉   | 217/311 [00:00<00:00, 541.94it/s]Loading weights:  94%|█████████▎| 291/311 [00:00<00:00, 578.62it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 494.17it/s]
+ground_test correct acc=0.7656 nll=0.7232 4.6s
+ground_test complementary acc=0.0859 nll=4.3006 4.1s
+ground_test mismatched acc=0.3594 nll=2.5185 4.2s
+ground_test none acc=0.3594 nll=1.3736 2.2s
+vqa_test correct acc=0.6474 nll=1.3615 7.4s
+vqa_test complementary acc=0.2448 nll=3.3040 7.4s
+vqa_test mismatched acc=0.3255 nll=2.7328 7.3s
+vqa_test none acc=0.3599 nll=2.3019 3.8s
+final eval done

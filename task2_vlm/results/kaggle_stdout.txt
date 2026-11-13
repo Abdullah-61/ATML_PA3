@@ -1,0 +1,151 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop2       20G  264K   20G   1% /kaggle/working
+overlay         8.0T  7.0T  1.1T  88% /
+               total        used        free      shared  buff/cache   available
+Mem:              31           1          25           0           4          30
+Swap:              0           0           0
+GPU 0: Tesla T4 (UUID: GPU-0e0f71f6-0c81-4d04-8bfd-8e9c8eb35cd3)
+GPU 1: Tesla T4 (UUID: GPU-49f74fcb-60f1-06b3-41b8-03f96d6b22d9)
+prep done 439.34179162979126
+29M	/kaggle/working/out/data
+8.0K	/kaggle/working/out/log_prep.txt
+24K	/kaggle/working/out/log_run196.txt
+24K	/kaggle/working/out/log_run49.txt
+132M	/kaggle/working/out/run196
+132M	/kaggle/working/out/run49
+==================== prep
+_all_train2014': True, 'eval_images_all_val2014': True, 'eval_train_overlap': 0, 'overlap_vqa_dev_vqa_test': 0, 'overlap_vqa_dev_ground_dev': 0, 'overlap_vqa_dev_ground_test': 0, 'overlap_vqa_dev_caption_dev': 0, 'overlap_vqa_test_ground_dev': 0, 'overlap_vqa_test_ground_test': 0, 'overlap_vqa_test_caption_dev': 0, 'overlap_ground_dev_ground_test': 0, 'overlap_ground_dev_caption_dev': 0, 'overlap_ground_test_caption_dev': 0, 'unique_images_vqa_dev': True, 'unique_images_vqa_test': True, 'unique_images_ground_dev': True, 'unique_images_ground_test': True, 'vqa_train_pairs_differ_and_agree8': True, 'vqa_dev_pairs_differ_and_agree8': True, 'vqa_test_pairs_differ_and_agree8': True}
+{'vqa_train': 1536, 'vqa_test': 96, 'vqa_dev': 32, 'presence_train_pool': 19497, 'counting_train_pool': 10226, 'ground_test': 64, 'ground_dev': 24, 'caption_train': 18000, 'caption_dev': 96, 'images': 17961}
+fetched 17961 images, 2.70 GB, 50s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]
+Loading weights:  65%|██████▍   | 135/208 [00:00<00:00, 1341.36it/s]
+Loading weights: 100%|██████████| 208/208 [00:00<00:00, 1390.49it/s]
+[transformers] [1mSiglipVisionModel LOAD REPORT[0m from: google/siglip-base-patch16-224
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.head.bias                                         | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.head.weight                                       | UNEXPECTED |  | 
+logit_bias                                                   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+cached {'images': 17961, 'seconds': 156.22318720817566, 'batch_size': 128, 'dtype': 'float16', 'shape': [17961, 196, 768], 'post_layernorm_max_abs_diff': 0.0, 'peak_gpu_mem_gb': 1.1995625495910645, 'bytes': 5407266944, 'vision_params': 92884224}
+
+==================== run196
+d
+dev @4000 {"update": 4000, "caption_loss": 2.4898658512781062, "ground_dev/nll_correct": 0.6111626378466705, "ground_dev/nll_complementary": 3.2397433795655766, "ground_dev/nll_none": 1.257012396895637, "ground_dev/delta_nll": 2.628580741718906, "ground_dev/delta_nll/counting": 1.4557292059374352, "ground_dev/delta_nll/presence": 3.801432277500377, "ground_dev/acc_correct": 0.6875, "vqa_dev/nll_correct": 1.0654365874652285, "vqa_dev/nll_complementary": 2.177265299251303, "vqa_dev/nll_none": 2.3416449254145846, "vqa_dev/delta_nll": 1.1118287117860746, "vqa_dev/delta_nll/number": 1.1223569214344025, "vqa_dev/delta_nll/other": 1.9210656913928688, "vqa_dev/delta_nll/yes/no": 0.2955729257470618, "vqa_dev/acc_correct": 0.4984375, "eval_seconds": 13.024688720703125}
+[4025/4500] s3 loss=0.6649 gn=5.69 lr=3.89e-05 1.37s/upd
+[4050/4500] s3 loss=1.7761 gn=18.05 lr=3.67e-05 1.37s/upd
+[4075/4500] s3 loss=0.2727 gn=2.89 lr=3.43e-05 1.35s/upd
+[4100/4500] s3 loss=0.4747 gn=3.67 lr=3.19e-05 1.35s/upd
+[4125/4500] s3 loss=0.4768 gn=4.49 lr=2.95e-05 1.37s/upd
+[4150/4500] s3 loss=0.8899 gn=6.34 lr=2.70e-05 1.36s/upd
+[4175/4500] s3 loss=1.0527 gn=7.85 lr=2.45e-05 1.37s/upd
+[4200/4500] s3 loss=0.8721 gn=4.32 lr=2.21e-05 1.39s/upd
+[4225/4500] s3 loss=0.5233 gn=4.60 lr=1.97e-05 1.36s/upd
+[4250/4500] s3 loss=0.3898 gn=5.45 lr=1.74e-05 1.35s/upd
+[4275/4500] s3 loss=0.6665 gn=5.56 lr=1.53e-05 1.36s/upd
+[4300/4500] s3 loss=0.2443 gn=5.94 lr=1.33e-05 1.56s/upd
+[4325/4500] s3 loss=0.7447 gn=5.57 lr=1.15e-05 1.36s/upd
+[4350/4500] s3 loss=0.8025 gn=7.55 lr=9.81e-06 1.35s/upd
+[4375/4500] s3 loss=0.3795 gn=3.55 lr=8.39e-06 1.36s/upd
+[4400/4500] s3 loss=0.2436 gn=3.47 lr=7.20e-06 1.36s/upd
+[4425/4500] s3 loss=0.1951 gn=2.83 lr=6.25e-06 1.36s/upd
+[4450/4500] s3 loss=0.4964 gn=4.24 lr=5.57e-06 1.35s/upd
+[4475/4500] s3 loss=0.4121 gn=2.98 lr=5.15e-06 1.36s/upd
+[4500/4500] s3 loss=0.1844 gn=2.59 lr=5.00e-06 1.35s/upd
+dev @4500 {"update": 4500, "caption_loss": 2.4960028746475778, "ground_dev/nll_correct": 0.5992988425793252, "ground_dev/nll_complementary": 3.8538561362462738, "ground_dev/nll_none": 1.2581711231420438, "ground_dev/delta_nll": 3.2545572936669487, "ground_dev/delta_nll/counting": 2.016927087524285, "ground_dev/delta_nll/presence": 4.492187499809613, "ground_dev/acc_correct": 0.75, "vqa_dev/nll_correct": 1.045399505259411, "vqa_dev/nll_complementary": 2.308693952159956, "vqa_dev/nll_none": 2.3227263238222804, "vqa_dev/delta_nll": 1.2632944469005452, "vqa_dev/delta_nll/number": 1.3029297180473804, "vqa_dev/delta_nll/other": 2.112795580585953, "vqa_dev/delta_nll/yes/no": 0.3873697991172473, "vqa_dev/acc_correct": 0.503125, "eval_seconds": 13.108054161071777}
+stage 3 done; weights saved
+DONE {"stages": {"caption_alignment": {"trainable_params": 1837056, "train_seconds": 2775.323942899704, "peak_gpu_mem_gb": 1.7043652534484863, "skipped_updates": []}, "visual_instruction": {"trainable_params": 6424576, "train_seconds": 2089.672478199005, "peak_gpu_mem_gb": 1.7570180892944336, "skipped_updates": []}, "natural_vqa": {"trainable_params": 6424576, "train_seconds": 1027.9534106254578, "peak_gpu_mem_gb": 1.7569265365600586, "skipped_updates": []}}, "total_train_seconds": 5892.949831724167}
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:00<01:26,  3.60it/s]
+Loading weights:  44%|████▍     | 138/311 [00:00<00:00, 462.35it/s]
+Loading weights:  70%|██████▉   | 217/311 [00:00<00:00, 541.94it/s]
+Loading weights:  94%|█████████▎| 291/311 [00:00<00:00, 578.62it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 494.17it/s]
+ground_test correct acc=0.7656 nll=0.7232 4.6s
+ground_test complementary acc=0.0859 nll=4.3006 4.1s
+ground_test mismatched acc=0.3594 nll=2.5185 4.2s
+ground_test none acc=0.3594 nll=1.3736 2.2s
+vqa_test correct acc=0.6474 nll=1.3615 7.4s
+vqa_test complementary acc=0.2448 nll=3.3040 7.4s
+vqa_test mismatched acc=0.3255 nll=2.7328 7.3s
+vqa_test none acc=0.3599 nll=2.3019 3.8s
+final eval done
+
+==================== run49
+975/4500] s3 loss=0.8025 gn=4.59 lr=4.28e-05 0.72s/upd
+[4000/4500] s3 loss=0.5236 gn=3.76 lr=4.09e-05 0.73s/upd
+dev @4000 {"update": 4000, "caption_loss": 2.5962050606807074, "ground_dev/nll_correct": 0.6825573660583663, "ground_dev/nll_complementary": 2.9934297469444573, "ground_dev/nll_none": 1.260692208694915, "ground_dev/delta_nll": 2.310872380886091, "ground_dev/delta_nll/counting": 1.244140620653828, "ground_dev/delta_nll/presence": 3.377604141118354, "ground_dev/acc_correct": 0.7083333333333334, "vqa_dev/nll_correct": 1.2548586407137918, "vqa_dev/nll_complementary": 2.2116907003801316, "vqa_dev/nll_none": 2.322732970060315, "vqa_dev/delta_nll": 0.9568320596663398, "vqa_dev/delta_nll/number": 0.540531063452363, "vqa_dev/delta_nll/other": 1.7595575036054167, "vqa_dev/delta_nll/yes/no": 0.43164061320324737, "vqa_dev/acc_correct": 0.5046875, "eval_seconds": 6.438808917999268}
+[4025/4500] s3 loss=0.5564 gn=3.91 lr=3.89e-05 0.73s/upd
+[4050/4500] s3 loss=1.7484 gn=11.16 lr=3.67e-05 0.73s/upd
+[4075/4500] s3 loss=0.3746 gn=3.56 lr=3.43e-05 0.76s/upd
+[4100/4500] s3 loss=0.3252 gn=2.68 lr=3.19e-05 0.72s/upd
+[4125/4500] s3 loss=0.6702 gn=4.64 lr=2.95e-05 0.77s/upd
+[4150/4500] s3 loss=0.8182 gn=2.94 lr=2.70e-05 0.73s/upd
+[4175/4500] s3 loss=1.4075 gn=10.75 lr=2.45e-05 0.94s/upd
+[4200/4500] s3 loss=0.9407 gn=6.85 lr=2.21e-05 0.72s/upd
+[4225/4500] s3 loss=0.4279 gn=6.10 lr=1.97e-05 0.72s/upd
+[4250/4500] s3 loss=0.5217 gn=4.07 lr=1.74e-05 0.73s/upd
+[4275/4500] s3 loss=0.7848 gn=5.59 lr=1.53e-05 0.72s/upd
+[4300/4500] s3 loss=0.3143 gn=5.83 lr=1.33e-05 0.76s/upd
+[4325/4500] s3 loss=0.6730 gn=4.69 lr=1.15e-05 0.71s/upd
+[4350/4500] s3 loss=0.8239 gn=4.92 lr=9.81e-06 0.72s/upd
+[4375/4500] s3 loss=0.4439 gn=3.56 lr=8.39e-06 0.72s/upd
+[4400/4500] s3 loss=0.3865 gn=5.34 lr=7.20e-06 0.71s/upd
+[4425/4500] s3 loss=0.3184 gn=2.37 lr=6.25e-06 0.72s/upd
+[4450/4500] s3 loss=0.7314 gn=18.00 lr=5.57e-06 0.73s/upd
+[4475/4500] s3 loss=0.4115 gn=3.32 lr=5.15e-06 0.71s/upd
+[4500/4500] s3 loss=0.1552 gn=2.36 lr=5.00e-06 0.73s/upd
+dev @4500 {"update": 4500, "caption_loss": 2.605042178183794, "ground_dev/nll_correct": 0.6704450418619672, "ground_dev/nll_complementary": 3.5936221258404353, "ground_dev/nll_none": 1.2692399558921654, "ground_dev/delta_nll": 2.923177083978468, "ground_dev/delta_nll/counting": 1.8294271039776504, "ground_dev/delta_nll/presence": 4.016927063979286, "ground_dev/acc_correct": 0.7291666666666666, "vqa_dev/nll_correct": 1.2587205323434318, "vqa_dev/nll_complementary": 2.3268893803469837, "vqa_dev/nll_none": 2.260287480079569, "vqa_dev/delta_nll": 1.0681688480035518, "vqa_dev/delta_nll/number": 0.6059641018509865, "vqa_dev/delta_nll/other": 1.9705158584789995, "vqa_dev/delta_nll/yes/no": 0.4739583349631478, "vqa_dev/acc_correct": 0.5359375, "eval_seconds": 6.64856743812561}
+stage 3 done; weights saved
+DONE {"stages": {"caption_alignment": {"trainable_params": 1837056, "train_seconds": 1145.3356459140778, "peak_gpu_mem_gb": 1.470752239227295, "skipped_updates": []}, "visual_instruction": {"trainable_params": 6424576, "train_seconds": 1109.1147179603577, "peak_gpu_mem_gb": 1.471156120300293, "skipped_updates": []}, "natural_vqa": {"trainable_params": 6424576, "train_seconds": 552.5181772708893, "peak_gpu_mem_gb": 1.4221768379211426, "skipped_updates": []}}, "total_train_seconds": 2806.9685411453247}
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/311 [00:00<03:02,  1.70it/s]
+Loading weights:  77%|███████▋  | 241/311 [00:00<00:00, 462.12it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 388.15it/s]
+ground_test correct acc=0.7109 nll=0.7491 2.8s
+ground_test complementary acc=0.1406 nll=3.5687 2.3s
+ground_test mismatched acc=0.3281 nll=2.2458 2.3s
+ground_test none acc=0.3438 nll=1.4435 2.3s
+vqa_test correct acc=0.6156 nll=1.3902 4.4s
+vqa_test complementary acc=0.2667 nll=3.0527 4.4s
+vqa_test mismatched acc=0.3276 nll=2.6051 4.2s
+vqa_test none acc=0.3682 nll=2.2709 4.0s
+final eval done
+
+exit codes [0, 0]
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __script__.ipynb to html
+[NbConvertApp] Writing 374115 bytes to __results__.html

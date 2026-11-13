@@ -1,0 +1,15 @@
+{
+ "images": 17961,
+ "seconds": 156.22318720817566,
+ "batch_size": 128,
+ "dtype": "float16",
+ "shape": [
+  17961,
+  196,
+  768
+ ],
+ "post_layernorm_max_abs_diff": 0.0,
+ "peak_gpu_mem_gb": 1.1995625495910645,
+ "bytes": 5407266944,
+ "vision_params": 92884224
+}

@@ -1,0 +1,41 @@
+vqa train: 1536 pairs from 71969 eligible
+vqa test: 96 pairs from 33925 eligible
+vqa dev: 32 pairs from 33925 eligible
+grounding pools: 19497 presence / 10226 counting pairs
+checks: {'train_images_all_train2014': True, 'eval_images_all_val2014': True, 'eval_train_overlap': 0, 'overlap_vqa_dev_vqa_test': 0, 'overlap_vqa_dev_ground_dev': 0, 'overlap_vqa_dev_ground_test': 0, 'overlap_vqa_dev_caption_dev': 0, 'overlap_vqa_test_ground_dev': 0, 'overlap_vqa_test_ground_test': 0, 'overlap_vqa_test_caption_dev': 0, 'overlap_ground_dev_ground_test': 0, 'overlap_ground_dev_caption_dev': 0, 'overlap_ground_test_caption_dev': 0, 'unique_images_vqa_dev': True, 'unique_images_vqa_test': True, 'unique_images_ground_dev': True, 'unique_images_ground_test': True, 'vqa_train_pairs_differ_and_agree8': True, 'vqa_dev_pairs_differ_and_agree8': True, 'vqa_test_pairs_differ_and_agree8': True}
+{'vqa_train': 1536, 'vqa_test': 96, 'vqa_dev': 32, 'presence_train_pool': 19497, 'counting_train_pool': 10226, 'ground_test': 64, 'ground_dev': 24, 'caption_train': 18000, 'caption_dev': 96, 'images': 17961}
+fetched 17961 images, 2.70 GB, 50s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+Loading weights:   0%|          | 0/208 [00:00<?, ?it/s]Loading weights:  65%|██████▍   | 135/208 [00:00<00:00, 1341.36it/s]Loading weights: 100%|██████████| 208/208 [00:00<00:00, 1390.49it/s]
+[transformers] [1mSiglipVisionModel LOAD REPORT[0m from: google/siglip-base-patch16-224
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.head.bias                                         | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+text_model.head.weight                                       | UNEXPECTED |  | 
+logit_bias                                                   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+cached {'images': 17961, 'seconds': 156.22318720817566, 'batch_size': 128, 'dtype': 'float16', 'shape': [17961, 196, 768], 'post_layernorm_max_abs_diff': 0.0, 'peak_gpu_mem_gb': 1.1995625495910645, 'bytes': 5407266944, 'vision_params': 92884224}
