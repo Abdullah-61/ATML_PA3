@@ -1,0 +1,37 @@
+{
+ "results": {
+  "gsm8k_cot": {
+   "name": "gsm8k_cot",
+   "alias": "gsm8k_cot",
+   "sample_len": 1319,
+   "exact_match,strict-match": 0.0,
+   "exact_match_stderr,strict-match": 0.0,
+   "exact_match,flexible-extract": 0.5663381349507203,
+   "exact_match_stderr,flexible-extract": 0.013650728047064686
+  }
+ },
+ "config": {
+  "model": "hf",
+  "model_args": "pretrained=/tmp/pa3_out/runs/full/export_step625,tokenizer=/tmp/pa3_out/tok_nothink,dtype=float16",
+  "model_num_parameters": 596049920,
+  "model_dtype": "torch.float16",
+  "model_revision": "main",
+  "model_sha": "",
+  "batch_size": 32,
+  "batch_sizes": [],
+  "device": null,
+  "use_cache": null,
+  "limit": null,
+  "bootstrap_iters": 100000,
+  "gen_kwargs": {
+   "temperature": 0,
+   "do_sample": false,
+   "max_gen_toks": 1024
+  },
+  "random_seed": 6304,
+  "numpy_seed": 6304,
+  "torch_seed": 6304,
+  "fewshot_seed": 6304
+ },
+ "n_samples": 2638
+}

@@ -1,0 +1,33 @@
+{
+ "results": {
+  "hellaswag": {
+   "name": "hellaswag",
+   "alias": "hellaswag",
+   "sample_len": 10042,
+   "acc,none": 0.377414857598088,
+   "acc_stderr,none": 0.004837493439874508,
+   "acc_norm,none": 0.4715196176060546,
+   "acc_norm_stderr,none": 0.004981680090303747
+  }
+ },
+ "config": {
+  "model": "hf",
+  "model_args": "pretrained=/kaggle/working/out/runs/lora16/export_final,tokenizer=/kaggle/working/out/tok_nothink,dtype=float16",
+  "model_num_parameters": 596049920,
+  "model_dtype": "torch.float16",
+  "model_revision": "main",
+  "model_sha": "",
+  "batch_size": 32,
+  "batch_sizes": [],
+  "device": null,
+  "use_cache": null,
+  "limit": null,
+  "bootstrap_iters": 100000,
+  "gen_kwargs": null,
+  "random_seed": 6304,
+  "numpy_seed": 6304,
+  "torch_seed": 6304,
+  "fewshot_seed": 6304
+ },
+ "n_samples": 10042
+}
