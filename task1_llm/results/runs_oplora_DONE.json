@@ -1,0 +1,19 @@
+{
+  "method": "oplora",
+  "lr": 0.0002,
+  "lam": 0.0,
+  "r": 16,
+  "alpha": 32,
+  "oplora": true,
+  "basis_seconds": 31.17642855644226,
+  "basis_bytes": 322961408,
+  "trainable_params": 10092544,
+  "peak_mem_gb": 2.6973471641540527,
+  "train_time_s": 11705.591737747192,
+  "skipped_updates": [],
+  "merge_max_abs_logit_diff": 0.1181640625,
+  "adapter_file_bytes": 40492211,
+  "export_seconds": 3.723144769668579,
+  "export_dir_bytes": 1203563926,
+  "ckpt_latest_bytes": 121595597
+}

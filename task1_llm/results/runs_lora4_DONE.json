@@ -1,0 +1,17 @@
+{
+  "method": "lora4",
+  "lr": 0.0002,
+  "lam": 0.0,
+  "r": 4,
+  "alpha": 8,
+  "oplora": false,
+  "trainable_params": 2523136,
+  "peak_mem_gb": 5.798563480377197,
+  "train_time_s": 9425.289678096771,
+  "skipped_updates": [],
+  "merge_max_abs_logit_diff": 0.205078125,
+  "adapter_file_bytes": 10214579,
+  "export_seconds": 4.037318229675293,
+  "export_dir_bytes": 1203563926,
+  "ckpt_latest_bytes": 30762701
+}

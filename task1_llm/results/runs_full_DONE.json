@@ -1,0 +1,16 @@
+{
+  "method": "full",
+  "lr": 2e-05,
+  "lam": 0.0,
+  "r": null,
+  "alpha": null,
+  "oplora": false,
+  "trainable_params": 596049920,
+  "peak_mem_gb": 11.137566566467285,
+  "train_time_s": 8826.450012207031,
+  "skipped_updates": [],
+  "displacement_l2": 10.631603759433656,
+  "export_seconds": 46.40158534049988,
+  "export_dir_bytes": 1203563917,
+  "ckpt_latest_bytes": 7152997145
+}
