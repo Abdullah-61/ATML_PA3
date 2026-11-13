@@ -1,0 +1,13 @@
+torch
+transformers>=4.51
+datasets
+accelerate
+lm_eval>=0.4.9
+safetensors
+pyyaml
+numpy
+pandas
+pyarrow
+scipy
+math-verify[antlr4_13_2]
+gdown
