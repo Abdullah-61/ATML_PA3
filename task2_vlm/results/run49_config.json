@@ -1,0 +1,78 @@
+{
+ "pool": 2,
+ "visual_tokens": 49,
+ "stages": [
+  {
+   "name": "caption_alignment",
+   "updates": 2250,
+   "lr_conn": 0.001,
+   "lr_lora": null,
+   "mix": null
+  },
+  {
+   "name": "visual_instruction",
+   "updates": 1500,
+   "lr_conn": 0.0001,
+   "lr_lora": 2e-05,
+   "mix": {
+    "presence": 0.5,
+    "counting": 0.25,
+    "caption": 0.25
+   }
+  },
+  {
+   "name": "natural_vqa",
+   "updates": 750,
+   "lr_conn": 5e-05,
+   "lr_lora": 1e-05,
+   "mix": {
+    "vqa": 0.7,
+    "presence": 0.1,
+    "counting": 0.1,
+    "caption": 0.1
+   }
+  }
+ ],
+ "batch": 16,
+ "micro_bs": 8,
+ "accum": 2,
+ "wd": 0.01,
+ "clip": 1.0,
+ "warmup_frac": 0.05,
+ "min_lr_frac": 0.1,
+ "caps": {
+  "question": 80,
+  "caption": 64,
+  "answer": 16
+ },
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "targets": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj"
+  ]
+ },
+ "seed": 6304,
+ "ckpt_every": 250,
+ "dev_eval_at": [
+  0,
+  500,
+  1000,
+  1500,
+  2000,
+  2250,
+  2500,
+  3000,
+  3500,
+  3750,
+  4000,
+  4500
+ ],
+ "caption_prompt": "Write a short caption for this image.",
+ "answer_suffix": "\nAnswer with a single word or number.",
+ "chat_template": "<|im_start|>user\n<|vision_start|><|image_pad|><|vision_end|>\nQQQ<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n"
+}

@@ -1,0 +1,499 @@
+{
+ "ground_test": {
+  "n_pairs": 64,
+  "conditions": {
+   "correct": {
+    "acc": 0.7109375,
+    "acc_ci": [
+     0.6171875,
+     0.796875
+    ],
+    "pair_acc": 0.5625,
+    "pair_acc_ci": [
+     0.4375,
+     0.6875
+    ],
+    "identical_answer_rate": 0.171875,
+    "empty_rate": 0.0,
+    "ref_nll": 0.7491267750535826,
+    "ref_nll_ci": [
+     0.5346222502413809,
+     0.9818665130562068
+    ],
+    "gen_seconds_per_answer": 0.022244244813919067,
+    "by_type": {
+     "counting": {
+      "n_pairs": 32,
+      "acc": 0.453125,
+      "pair_acc": 0.1875,
+      "ref_nll": 1.4030437260662438,
+      "identical_answer_rate": 0.28125
+     },
+     "presence": {
+      "n_pairs": 32,
+      "acc": 0.96875,
+      "pair_acc": 0.9375,
+      "ref_nll": 0.09520982404092138,
+      "identical_answer_rate": 0.0625
+     }
+    }
+   },
+   "complementary": {
+    "acc": 0.140625,
+    "acc_ci": [
+     0.078125,
+     0.203125
+    ],
+    "pair_acc": 0.03125,
+    "pair_acc_ci": [
+     0.0,
+     0.078125
+    ],
+    "identical_answer_rate": 0.171875,
+    "empty_rate": 0.0,
+    "ref_nll": 3.568706863268744,
+    "ref_nll_ci": [
+     3.156744025585067,
+     3.9884269965041312
+    ],
+    "gen_seconds_per_answer": 0.017725765705108643,
+    "by_type": {
+     "counting": {
+      "n_pairs": 32,
+      "acc": 0.25,
+      "pair_acc": 0.0625,
+      "ref_nll": 2.8576335684629157,
+      "identical_answer_rate": 0.28125,
+      "follows_partner_answer": 0.453125,
+      "keeps_original_answer": 0.25
+     },
+     "presence": {
+      "n_pairs": 32,
+      "acc": 0.03125,
+      "pair_acc": 0.0,
+      "ref_nll": 4.279780158074573,
+      "identical_answer_rate": 0.0625,
+      "follows_partner_answer": 0.96875,
+      "keeps_original_answer": 0.03125
+     }
+    },
+    "follows_partner_answer": 0.7109375,
+    "keeps_original_answer": 0.140625,
+    "other_answer": 0.1484375,
+    "partner_acc": 0.7109375
+   },
+   "mismatched": {
+    "acc": 0.328125,
+    "acc_ci": [
+     0.265625,
+     0.390625
+    ],
+    "pair_acc": 0.015625,
+    "pair_acc_ci": [
+     0.0,
+     0.046875
+    ],
+    "identical_answer_rate": 0.65625,
+    "empty_rate": 0.0,
+    "ref_nll": 2.2458153281759223,
+    "ref_nll_ci": [
+     1.9962802814423413,
+     2.5052129031667847
+    ],
+    "gen_seconds_per_answer": 0.01827012561261654,
+    "by_type": {
+     "counting": {
+      "n_pairs": 32,
+      "acc": 0.21875,
+      "pair_acc": 0.03125,
+      "ref_nll": 2.3305330659495667,
+      "identical_answer_rate": 0.4375
+     },
+     "presence": {
+      "n_pairs": 32,
+      "acc": 0.4375,
+      "pair_acc": 0.0,
+      "ref_nll": 2.161097590402278,
+      "identical_answer_rate": 0.875
+     }
+    }
+   },
+   "none": {
+    "acc": 0.34375,
+    "acc_ci": [
+     0.2890625,
+     0.3984375
+    ],
+    "pair_acc": 0.0,
+    "pair_acc_ci": [
+     0.0,
+     0.0
+    ],
+    "identical_answer_rate": 1.0,
+    "empty_rate": 0.0,
+    "ref_nll": 1.4434715123934438,
+    "ref_nll_ci": [
+     1.2551025583321462,
+     1.6484059047783375
+    ],
+    "gen_seconds_per_answer": 0.018141698092222214,
+    "by_type": {
+     "counting": {
+      "n_pairs": 32,
+      "acc": 0.1875,
+      "pair_acc": 0.0,
+      "ref_nll": 1.9972975431010127,
+      "identical_answer_rate": 1.0
+     },
+     "presence": {
+      "n_pairs": 32,
+      "acc": 0.5,
+      "pair_acc": 0.0,
+      "ref_nll": 0.889645481685875,
+      "identical_answer_rate": 1.0
+     }
+    }
+   }
+  },
+  "advantages": {
+   "correct_vs_complementary": {
+    "acc": {
+     "mean": 0.5703125,
+     "ci": [
+      0.4296875,
+      0.703125
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.53125,
+     "ci": [
+      0.390625,
+      0.65625
+     ]
+    },
+    "nll": {
+     "mean": 2.8195800882151616,
+     "ci": [
+      2.248397821169783,
+      3.375003057770118
+     ]
+    }
+   },
+   "correct_vs_mismatched": {
+    "acc": {
+     "mean": 0.3828125,
+     "ci": [
+      0.296875,
+      0.4609375
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.546875,
+     "ci": [
+      0.421875,
+      0.671875
+     ]
+    },
+    "nll": {
+     "mean": 1.4966885531223397,
+     "ci": [
+      1.18875013390234,
+      1.8094926608612127
+     ]
+    }
+   },
+   "correct_vs_none": {
+    "acc": {
+     "mean": 0.3671875,
+     "ci": [
+      0.2890625,
+      0.4375
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.5625,
+     "ci": [
+      0.4375,
+      0.6875
+     ]
+    },
+    "nll": {
+     "mean": 0.6943447373398612,
+     "ci": [
+      0.4964673807390625,
+      0.8954255047948664
+     ]
+    }
+   }
+  },
+  "bootstrap": {
+   "resamples": 4000,
+   "unit": "pair",
+   "seed": 6304
+  }
+ },
+ "vqa_test": {
+  "n_pairs": 96,
+  "conditions": {
+   "correct": {
+    "acc": 0.615625,
+    "acc_ci": [
+     0.5499869791666666,
+     0.6802083333333333
+    ],
+    "pair_acc": 0.3125,
+    "pair_acc_ci": [
+     0.22916666666666666,
+     0.40625
+    ],
+    "identical_answer_rate": 0.5104166666666666,
+    "empty_rate": 0.0,
+    "ref_nll": 1.390237763261818,
+    "ref_nll_ci": [
+     1.077296433090161,
+     1.7566496378453773
+    ],
+    "gen_seconds_per_answer": 0.022690050303936005,
+    "by_type": {
+     "number": {
+      "n_pairs": 24,
+      "acc": 0.6291666666666667,
+      "pair_acc": 0.375,
+      "ref_nll": 1.3028155815445643,
+      "identical_answer_rate": 0.375
+     },
+     "other": {
+      "n_pairs": 36,
+      "acc": 0.5013888888888889,
+      "pair_acc": 0.25,
+      "ref_nll": 2.1437874375001735,
+      "identical_answer_rate": 0.4444444444444444
+     },
+     "yes/no": {
+      "n_pairs": 36,
+      "acc": 0.7208333333333333,
+      "pair_acc": 0.3333333333333333,
+      "ref_nll": 0.6949695435016312,
+      "identical_answer_rate": 0.6666666666666666
+     }
+    }
+   },
+   "complementary": {
+    "acc": 0.26666666666666666,
+    "acc_ci": [
+     0.21354166666666666,
+     0.3182291666666666
+    ],
+    "pair_acc": 0.0,
+    "pair_acc_ci": [
+     0.0,
+     0.0
+    ],
+    "identical_answer_rate": 0.5104166666666666,
+    "empty_rate": 0.0,
+    "ref_nll": 3.0527176855369667,
+    "ref_nll_ci": [
+     2.55579021355552,
+     3.6060358148615097
+    ],
+    "gen_seconds_per_answer": 0.023117198298374813,
+    "by_type": {
+     "number": {
+      "n_pairs": 24,
+      "acc": 0.14375,
+      "pair_acc": 0.0,
+      "ref_nll": 4.045328607792423,
+      "identical_answer_rate": 0.375,
+      "follows_partner_answer": 0.6041666666666666,
+      "keeps_original_answer": 0.125
+     },
+     "other": {
+      "n_pairs": 36,
+      "acc": 0.18611111111111112,
+      "pair_acc": 0.0,
+      "ref_nll": 4.149549870725928,
+      "identical_answer_rate": 0.4444444444444444,
+      "follows_partner_answer": 0.4722222222222222,
+      "keeps_original_answer": 0.1527777777777778
+     },
+     "yes/no": {
+      "n_pairs": 36,
+      "acc": 0.4291666666666667,
+      "pair_acc": 0.0,
+      "ref_nll": 1.294144885511034,
+      "identical_answer_rate": 0.6666666666666666,
+      "follows_partner_answer": 0.6666666666666666,
+      "keeps_original_answer": 0.3333333333333333
+     }
+    },
+    "follows_partner_answer": 0.578125,
+    "keeps_original_answer": 0.21354166666666666,
+    "other_answer": 0.20833333333333334,
+    "partner_acc": 0.615625
+   },
+   "mismatched": {
+    "acc": 0.3276041666666667,
+    "acc_ci": [
+     0.26927083333333335,
+     0.38437499999999997
+    ],
+    "pair_acc": 0.010416666666666666,
+    "pair_acc_ci": [
+     0.0,
+     0.03125
+    ],
+    "identical_answer_rate": 0.6875,
+    "empty_rate": 0.0,
+    "ref_nll": 2.6051211915012877,
+    "ref_nll_ci": [
+     2.216117942976113,
+     3.0527399549853125
+    ],
+    "gen_seconds_per_answer": 0.022084388881921768,
+    "by_type": {
+     "number": {
+      "n_pairs": 24,
+      "acc": 0.20833333333333334,
+      "pair_acc": 0.0,
+      "ref_nll": 3.3599362440096834,
+      "identical_answer_rate": 0.75
+     },
+     "other": {
+      "n_pairs": 36,
+      "acc": 0.14166666666666666,
+      "pair_acc": 0.0,
+      "ref_nll": 3.475000841750039,
+      "identical_answer_rate": 0.3611111111111111
+     },
+     "yes/no": {
+      "n_pairs": 36,
+      "acc": 0.5930555555555556,
+      "pair_acc": 0.027777777777777776,
+      "ref_nll": 1.232031506246939,
+      "identical_answer_rate": 0.9722222222222222
+     }
+    }
+   },
+   "none": {
+    "acc": 0.36822916666666666,
+    "acc_ci": [
+     0.3166666666666667,
+     0.4192708333333333
+    ],
+    "pair_acc": 0.0,
+    "pair_acc_ci": [
+     0.0,
+     0.0
+    ],
+    "identical_answer_rate": 1.0,
+    "empty_rate": 0.0,
+    "ref_nll": 2.270874123632287,
+    "ref_nll_ci": [
+     1.8882989014867537,
+     2.720906161329913
+    ],
+    "gen_seconds_per_answer": 0.020875874906778336,
+    "by_type": {
+     "number": {
+      "n_pairs": 24,
+      "acc": 0.3458333333333334,
+      "pair_acc": 0.0,
+      "ref_nll": 1.977363823602597,
+      "identical_answer_rate": 1.0
+     },
+     "other": {
+      "n_pairs": 36,
+      "acc": 0.20277777777777778,
+      "pair_acc": 0.0,
+      "ref_nll": 3.583144011803799,
+      "identical_answer_rate": 1.0
+     },
+     "yes/no": {
+      "n_pairs": 36,
+      "acc": 0.5486111111111112,
+      "pair_acc": 0.0,
+      "ref_nll": 1.1542777688139014,
+      "identical_answer_rate": 1.0
+     }
+    }
+   }
+  },
+  "advantages": {
+   "correct_vs_complementary": {
+    "acc": {
+     "mean": 0.3489583333333333,
+     "ci": [
+      0.2635416666666667,
+      0.4401041666666667
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.3125,
+     "ci": [
+      0.22916666666666666,
+      0.40625
+     ]
+    },
+    "nll": {
+     "mean": 1.6624799222751487,
+     "ci": [
+      1.2347668146405189,
+      2.1306395164061547
+     ]
+    }
+   },
+   "correct_vs_mismatched": {
+    "acc": {
+     "mean": 0.28802083333333334,
+     "ci": [
+      0.21613281250000002,
+      0.3645833333333333
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.3020833333333333,
+     "ci": [
+      0.20833333333333334,
+      0.3958333333333333
+     ]
+    },
+    "nll": {
+     "mean": 1.2148834282394698,
+     "ci": [
+      0.8996315702501837,
+      1.5616429699701033
+     ]
+    }
+   },
+   "correct_vs_none": {
+    "acc": {
+     "mean": 0.24739583333333334,
+     "ci": [
+      0.17916666666666667,
+      0.31824218750000005
+     ]
+    },
+    "pair_acc": {
+     "mean": 0.3125,
+     "ci": [
+      0.22916666666666666,
+      0.40625
+     ]
+    },
+    "nll": {
+     "mean": 0.8806363603704691,
+     "ci": [
+      0.646480816307917,
+      1.1411013204482818
+     ]
+    }
+   }
+  },
+  "bootstrap": {
+   "resamples": 4000,
+   "unit": "pair",
+   "seed": 6304
+  }
+ },
+ "peak_gpu_mem_gb": 1.3185791969299316
+}

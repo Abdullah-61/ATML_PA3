@@ -1,0 +1,9 @@
+{
+ "rule": "scale = mean||text embedding|| / mean||connector(F)|| at init (training data only)",
+ "text_tokens": 34094,
+ "images": 512,
+ "text_embed_norm": 0.871170163154602,
+ "visual_norm_before": 11.482938766479492,
+ "scale": 0.07586648164472365,
+ "visual_norm_after": 0.871170163154602
+}

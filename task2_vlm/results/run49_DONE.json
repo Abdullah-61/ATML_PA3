@@ -1,0 +1,23 @@
+{
+ "stages": {
+  "caption_alignment": {
+   "trainable_params": 1837056,
+   "train_seconds": 1145.3356459140778,
+   "peak_gpu_mem_gb": 1.470752239227295,
+   "skipped_updates": []
+  },
+  "visual_instruction": {
+   "trainable_params": 6424576,
+   "train_seconds": 1109.1147179603577,
+   "peak_gpu_mem_gb": 1.471156120300293,
+   "skipped_updates": []
+  },
+  "natural_vqa": {
+   "trainable_params": 6424576,
+   "train_seconds": 552.5181772708893,
+   "peak_gpu_mem_gb": 1.4221768379211426,
+   "skipped_updates": []
+  }
+ },
+ "total_train_seconds": 2806.9685411453247
+}
