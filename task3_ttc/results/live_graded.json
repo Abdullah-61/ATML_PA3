@@ -1,0 +1,1152 @@
+[
+ {
+  "sample_id": "test:943",
+  "gold": "14",
+  "single_answer": "14",
+  "single_correct": true,
+  "parallel_answers": [
+   "14",
+   "14",
+   "14"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "14",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "14",
+  "initial_correct": true,
+  "refine_answer": "14",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2688",
+  "gold": "-1",
+  "single_answer": "-1",
+  "single_correct": true,
+  "parallel_answers": [
+   "-1",
+   "-1",
+   "-1"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "-1",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "-1",
+  "initial_correct": true,
+  "refine_answer": "-1",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3504",
+  "gold": "216",
+  "single_answer": "216",
+  "single_correct": true,
+  "parallel_answers": [
+   null,
+   null,
+   "360"
+  ],
+  "parallel_groups": [
+   "NO_ANSWER",
+   "NO_ANSWER",
+   "g0"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": null,
+  "initial_correct": false,
+  "refine_answer": "9000",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:4335",
+  "gold": "5040",
+  "single_answer": "5040",
+  "single_correct": true,
+  "parallel_answers": [
+   "5040",
+   "5040",
+   "5040"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "5040",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "5040",
+  "initial_correct": true,
+  "refine_answer": "5040",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2460",
+  "gold": "154",
+  "single_answer": "58",
+  "single_correct": false,
+  "parallel_answers": [
+   "154",
+   null,
+   "6106"
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "g1"
+  ],
+  "parallel_answer": "154",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "154",
+  "initial_correct": true,
+  "refine_answer": "13",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1324",
+  "gold": "\\frac{3}{16}",
+  "single_answer": "\\frac{1}{2}",
+  "single_correct": false,
+  "parallel_answers": [
+   "\\frac{1}{32}",
+   "\\frac{31}{32}",
+   "\\frac{3}{16}"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g2"
+  ],
+  "parallel_answer": "\\frac{1}{32}",
+  "parallel_correct": false,
+  "parallel_coverage": true,
+  "initial_answer": "\\frac{1}{32}",
+  "initial_correct": false,
+  "refine_answer": "\\frac{1}{32}",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:2340",
+  "gold": "6",
+  "single_answer": "6",
+  "single_correct": true,
+  "parallel_answers": [
+   null,
+   "6\\sqrt[3]{2}",
+   null
+  ],
+  "parallel_groups": [
+   "NO_ANSWER",
+   "g0",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": null,
+  "initial_correct": false,
+  "refine_answer": "6",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:1577",
+  "gold": "14",
+  "single_answer": "14",
+  "single_correct": true,
+  "parallel_answers": [
+   "5",
+   "14",
+   "77"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g2"
+  ],
+  "parallel_answer": "5",
+  "parallel_correct": false,
+  "parallel_coverage": true,
+  "initial_answer": "5",
+  "initial_correct": false,
+  "refine_answer": "5",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:639",
+  "gold": "-9",
+  "single_answer": "-9",
+  "single_correct": true,
+  "parallel_answers": [
+   "-9",
+   "-9",
+   "-9"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "-9",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "-9",
+  "initial_correct": true,
+  "refine_answer": "-9",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2892",
+  "gold": "-71",
+  "single_answer": "-1",
+  "single_correct": false,
+  "parallel_answers": [
+   null,
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "NO_ANSWER",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": null,
+  "initial_correct": false,
+  "refine_answer": "0",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:4702",
+  "gold": "59",
+  "single_answer": null,
+  "single_correct": false,
+  "parallel_answers": [
+   "-59",
+   "-59",
+   "-61"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g1"
+  ],
+  "parallel_answer": "-59",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "-59",
+  "initial_correct": false,
+  "refine_answer": "-59",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1709",
+  "gold": "75",
+  "single_answer": "75",
+  "single_correct": true,
+  "parallel_answers": [
+   "62.5",
+   "25",
+   "25"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g1"
+  ],
+  "parallel_answer": "25",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "62.5",
+  "initial_correct": false,
+  "refine_answer": "62.5",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:4041",
+  "gold": "56",
+  "single_answer": "56",
+  "single_correct": true,
+  "parallel_answers": [
+   "56",
+   "56",
+   "56"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "56",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "56",
+  "initial_correct": true,
+  "refine_answer": "56",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2119",
+  "gold": "28",
+  "single_answer": "21",
+  "single_correct": false,
+  "parallel_answers": [
+   "21",
+   "21",
+   "21"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "21",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "21",
+  "initial_correct": false,
+  "refine_answer": "21",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:2087",
+  "gold": "7",
+  "single_answer": "7",
+  "single_correct": true,
+  "parallel_answers": [
+   "3",
+   "7",
+   "7"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g1"
+  ],
+  "parallel_answer": "7",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "3",
+  "initial_correct": false,
+  "refine_answer": "3",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:4549",
+  "gold": "11",
+  "single_answer": "6",
+  "single_correct": false,
+  "parallel_answers": [
+   "6",
+   "4",
+   "5"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g2"
+  ],
+  "parallel_answer": "6",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "6",
+  "initial_correct": false,
+  "refine_answer": "6",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:2732",
+  "gold": "\\frac{266664}{5}",
+  "single_answer": "53332.8",
+  "single_correct": true,
+  "parallel_answers": [
+   "53332.8",
+   "11111",
+   null
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "53332.8",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "53332.8",
+  "initial_correct": true,
+  "refine_answer": "53332.8",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:1433",
+  "gold": "\\frac{1}{4}",
+  "single_answer": "\\frac{1}{4}",
+  "single_correct": true,
+  "parallel_answers": [
+   "\\frac{1}{4}",
+   "\\frac{1}{4}",
+   "\\frac{1}{4}"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "\\frac{1}{4}",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "\\frac{1}{4}",
+  "initial_correct": true,
+  "refine_answer": "\\frac{1}{4}",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3285",
+  "gold": "0",
+  "single_answer": "2561330157",
+  "single_correct": false,
+  "parallel_answers": [
+   "0",
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": true,
+  "initial_answer": "0",
+  "initial_correct": true,
+  "refine_answer": "0",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:29",
+  "gold": "16",
+  "single_answer": "16",
+  "single_correct": true,
+  "parallel_answers": [
+   "16",
+   "16",
+   "16"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "16",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "16",
+  "initial_correct": true,
+  "refine_answer": "16",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2948",
+  "gold": "1+\\sqrt 2,\\ 1-\\sqrt 2,\\ 2+\\sqrt 3,\\ 2-\\sqrt 3",
+  "single_answer": null,
+  "single_correct": false,
+  "parallel_answers": [
+   null,
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "NO_ANSWER",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": null,
+  "initial_correct": false,
+  "refine_answer": "0, 3, \\frac{3 + \\sqrt{13 + 4\\sqrt{5}}}{2}, \\frac{3 - \\sqrt{13 + 4\\sqrt{5}}}{2}, \\frac{3 + \\sqrt{13 - 4\\sqrt{5}}}{2}, \\frac{3 - \\sqrt{13 - 4\\sqrt{5}}}{2}",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1997",
+  "gold": "120",
+  "single_answer": "120",
+  "single_correct": true,
+  "parallel_answers": [
+   "120^\\circ",
+   "120",
+   "120"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "120^\\circ",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "120^\\circ",
+  "initial_correct": true,
+  "refine_answer": "120^\\circ",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:414",
+  "gold": "1",
+  "single_answer": "-2, 1",
+  "single_correct": false,
+  "parallel_answers": [
+   "-2, 1",
+   "-2, 1",
+   "-2, 1"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "-2, 1",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "-2, 1",
+  "initial_correct": false,
+  "refine_answer": "-2, 1",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1808",
+  "gold": "2",
+  "single_answer": "2",
+  "single_correct": true,
+  "parallel_answers": [
+   "2",
+   "2",
+   "2"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "2",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "2",
+  "initial_correct": true,
+  "refine_answer": "2",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:4962",
+  "gold": "(4,\\pi)",
+  "single_answer": "(4, \\pi)",
+  "single_correct": true,
+  "parallel_answers": [
+   "(4, \\pi)",
+   "(4, \\pi)",
+   "(4, \\pi)"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "(4, \\pi)",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "(4, \\pi)",
+  "initial_correct": true,
+  "refine_answer": "(4, \\pi)",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:274",
+  "gold": "2",
+  "single_answer": "2",
+  "single_correct": true,
+  "parallel_answers": [
+   "2",
+   "2",
+   "2"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "2",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "2",
+  "initial_correct": true,
+  "refine_answer": "2",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:916",
+  "gold": "14",
+  "single_answer": "14",
+  "single_correct": true,
+  "parallel_answers": [
+   "14",
+   "14",
+   "14"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "14",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "14",
+  "initial_correct": true,
+  "refine_answer": "14",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:534",
+  "gold": "56",
+  "single_answer": "56",
+  "single_correct": true,
+  "parallel_answers": [
+   "56",
+   "56",
+   "56"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "56",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "56",
+  "initial_correct": true,
+  "refine_answer": "56",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2177",
+  "gold": "18",
+  "single_answer": "6",
+  "single_correct": false,
+  "parallel_answers": [
+   "10",
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "10",
+  "initial_correct": false,
+  "refine_answer": "10",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1043",
+  "gold": "2",
+  "single_answer": "2",
+  "single_correct": true,
+  "parallel_answers": [
+   "2",
+   "2",
+   "2"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "2",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "2",
+  "initial_correct": true,
+  "refine_answer": "2",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:373",
+  "gold": "11",
+  "single_answer": "11",
+  "single_correct": true,
+  "parallel_answers": [
+   "11",
+   "11",
+   "11"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "11",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "11",
+  "initial_correct": true,
+  "refine_answer": "11",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:1379",
+  "gold": "\\frac{10}{19}",
+  "single_answer": "\\frac{3}{19}",
+  "single_correct": false,
+  "parallel_answers": [
+   "\\frac{3}{19}",
+   "\\frac{16}{19}",
+   "\\frac{3}{19}"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g0"
+  ],
+  "parallel_answer": "\\frac{3}{19}",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "\\frac{3}{19}",
+  "initial_correct": false,
+  "refine_answer": "\\frac{3}{19}",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:196",
+  "gold": "81",
+  "single_answer": "81",
+  "single_correct": true,
+  "parallel_answers": [
+   "81",
+   "81",
+   "81"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "81",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "81",
+  "initial_correct": true,
+  "refine_answer": "81",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2134",
+  "gold": "15",
+  "single_answer": "15",
+  "single_correct": true,
+  "parallel_answers": [
+   "15",
+   "20",
+   "13"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g2"
+  ],
+  "parallel_answer": "15",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "15",
+  "initial_correct": true,
+  "refine_answer": "15",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:771",
+  "gold": "\\frac{160}{33}",
+  "single_answer": "\\frac{160}{33}",
+  "single_correct": true,
+  "parallel_answers": [
+   "\\frac{160}{33}",
+   "\\frac{160}{33}",
+   "\\frac{160}{33}"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "\\frac{160}{33}",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "\\frac{160}{33}",
+  "initial_correct": true,
+  "refine_answer": "\\frac{160}{33}",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3572",
+  "gold": "22",
+  "single_answer": "1",
+  "single_correct": false,
+  "parallel_answers": [
+   "22",
+   null,
+   "22"
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "g0"
+  ],
+  "parallel_answer": "22",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "22",
+  "initial_correct": true,
+  "refine_answer": "22",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:2358",
+  "gold": "2 \\sqrt{5}",
+  "single_answer": "7\\sqrt{2}",
+  "single_correct": false,
+  "parallel_answers": [
+   null,
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "NO_ANSWER",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": null,
+  "initial_correct": false,
+  "refine_answer": "\\frac{3\\sqrt{2}}{2}",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:2019",
+  "gold": "5",
+  "single_answer": "5",
+  "single_correct": true,
+  "parallel_answers": [
+   "5",
+   "5",
+   "5"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "5",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "5",
+  "initial_correct": true,
+  "refine_answer": "5",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:4144",
+  "gold": "5",
+  "single_answer": "5",
+  "single_correct": true,
+  "parallel_answers": [
+   "5",
+   "5",
+   "5"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "5",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "5",
+  "initial_correct": true,
+  "refine_answer": "5",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3314",
+  "gold": "15",
+  "single_answer": "16",
+  "single_correct": false,
+  "parallel_answers": [
+   "15",
+   "12",
+   "15"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g0"
+  ],
+  "parallel_answer": "15",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "15",
+  "initial_correct": true,
+  "refine_answer": "15",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3239",
+  "gold": "4",
+  "single_answer": "4",
+  "single_correct": true,
+  "parallel_answers": [
+   "4",
+   "4",
+   "4"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "4",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "4",
+  "initial_correct": true,
+  "refine_answer": "4",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:4678",
+  "gold": "6",
+  "single_answer": "6",
+  "single_correct": true,
+  "parallel_answers": [
+   "6",
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": true,
+  "initial_answer": "6",
+  "initial_correct": true,
+  "refine_answer": "6",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:1122",
+  "gold": "5",
+  "single_answer": "5",
+  "single_correct": true,
+  "parallel_answers": [
+   "5",
+   "5",
+   "5"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "5",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "5",
+  "initial_correct": true,
+  "refine_answer": "5",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:4168",
+  "gold": "0.6",
+  "single_answer": "0.6",
+  "single_correct": true,
+  "parallel_answers": [
+   "0.6",
+   "0.6",
+   "0.6"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "0.6",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "0.6",
+  "initial_correct": true,
+  "refine_answer": "0.6",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:1300",
+  "gold": "1",
+  "single_answer": "1",
+  "single_correct": true,
+  "parallel_answers": [
+   "1",
+   "1",
+   "1"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "1",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "1",
+  "initial_correct": true,
+  "refine_answer": "1",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:4516",
+  "gold": "\\frac{25 \\sqrt{10}}{4}",
+  "single_answer": "\\frac{17\\sqrt{10}}{2}",
+  "single_correct": false,
+  "parallel_answers": [
+   "4\\sqrt{10}",
+   null,
+   null
+  ],
+  "parallel_groups": [
+   "g0",
+   "NO_ANSWER",
+   "NO_ANSWER"
+  ],
+  "parallel_answer": "NO_ANSWER",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "4\\sqrt{10}",
+  "initial_correct": false,
+  "refine_answer": "4\\sqrt{10}",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1903",
+  "gold": "80",
+  "single_answer": "120",
+  "single_correct": false,
+  "parallel_answers": [
+   "35",
+   "55",
+   "30"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g1",
+   "g2"
+  ],
+  "parallel_answer": "35",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "35",
+  "initial_correct": false,
+  "refine_answer": "35",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:1916",
+  "gold": "144",
+  "single_answer": "120",
+  "single_correct": false,
+  "parallel_answers": [
+   "120",
+   "120",
+   "193"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g1"
+  ],
+  "parallel_answer": "120",
+  "parallel_correct": false,
+  "parallel_coverage": false,
+  "initial_answer": "120",
+  "initial_correct": false,
+  "refine_answer": "120",
+  "refine_correct": false
+ },
+ {
+  "sample_id": "test:3409",
+  "gold": "3",
+  "single_answer": "3",
+  "single_correct": true,
+  "parallel_answers": [
+   "3",
+   "3",
+   "3"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "3",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "3",
+  "initial_correct": true,
+  "refine_answer": "3",
+  "refine_correct": true
+ },
+ {
+  "sample_id": "test:3617",
+  "gold": "9",
+  "single_answer": "9",
+  "single_correct": true,
+  "parallel_answers": [
+   "9",
+   "9",
+   "9"
+  ],
+  "parallel_groups": [
+   "g0",
+   "g0",
+   "g0"
+  ],
+  "parallel_answer": "9",
+  "parallel_correct": true,
+  "parallel_coverage": true,
+  "initial_answer": "9",
+  "initial_correct": true,
+  "refine_answer": "9",
+  "refine_correct": true
+ }
+]

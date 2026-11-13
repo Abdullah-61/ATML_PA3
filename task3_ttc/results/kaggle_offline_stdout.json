@@ -1,0 +1,92 @@
+[{"stream_name":"stdout","time":0.920743068,"data":"\u003e\u003e pip install -q gdown 'math-verify[antlr4_13_2]' pyarrow\n"}
+,{"stream_name":"stderr","time":7.10877648,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":7.108806385,"data":"omegaconf 2.3.1 requires antlr4-python3-runtime==4.9.*, but you have antlr4-python3-runtime 4.13.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":7.495838561,"data":"\u003c\u003c 0\n"}
+,{"stream_name":"stdout","time":7.495878227,"data":"\u003e\u003e pip list 2\u003e/dev/null | grep -iE 'math.verify|latex2sympy|antlr|transformers|torch |numpy|pandas|scipy'\n"}
+,{"stream_name":"stdout","time":9.528391562,"data":"antlr4-python3-runtime                4.13.2\n"}
+,{"stream_name":"stdout","time":9.528419656,"data":"geopandas                             1.1.4\n"}
+,{"stream_name":"stdout","time":9.5284233,"data":"latex2sympy2_extended                 1.11.0\n"}
+,{"stream_name":"stdout","time":9.528426413,"data":"math-verify                           0.9.0\n"}
+,{"stream_name":"stdout","time":9.528429322000001,"data":"numpy                                 2.1.3\n"}
+,{"stream_name":"stdout","time":9.528432116,"data":"pandas                                2.3.3\n"}
+,{"stream_name":"stdout","time":9.528435673,"data":"pandas-datareader                     0.11.1\n"}
+,{"stream_name":"stdout","time":9.52844029,"data":"pandas-gbq                            0.30.0\n"}
+,{"stream_name":"stdout","time":9.528443213,"data":"pandas-profiling                      3.6.6\n"}
+,{"stream_name":"stdout","time":9.528445984,"data":"pandas-stubs                          2.2.3.250527\n"}
+,{"stream_name":"stdout","time":9.528449064,"data":"pandasql                              0.7.3\n"}
+,{"stream_name":"stdout","time":9.528452024,"data":"scipy                                 1.16.3\n"}
+,{"stream_name":"stdout","time":9.528476854,"data":"sentence-transformers                 5.7.0\n"}
+,{"stream_name":"stdout","time":9.528481534,"data":"sklearn-pandas                        2.2.0\n"}
+,{"stream_name":"stdout","time":9.528486241,"data":"torch                                 2.11.0+cpu\n"}
+,{"stream_name":"stdout","time":9.528490534,"data":"transformers                          5.16.1\n"}
+,{"stream_name":"stdout","time":9.530039511,"data":"\u003c\u003c 0\n"}
+,{"stream_name":"stdout","time":9.530243004,"data":"\u003e\u003e cd /kaggle/tmp/d \u0026\u0026 gdown --folder 'https://drive.google.com/drive/folders/1utX-Gfi9vvaoi1mi0pzNpDGL1o1fAh23' --remaining-ok -q\n"}
+,{"stream_name":"stdout","time":34.898816315,"data":"\u003c\u003c 0\n"}
+,{"stream_name":"stdout","time":34.899408797,"data":"\u003e\u003e curl -sSL -o /kaggle/tmp/d/testmini.json https://raw.githubusercontent.com/lupantech/MathVista/main/data/testmini.json\n"}
+,{"stream_name":"stdout","time":35.250791603,"data":"\u003c\u003c 0\n"}
+,{"stream_name":"stdout","time":35.268488336,"data":"testmini entries 1000\n"}
+,{"stream_name":"stdout","time":35.269291578,"data":"\u003e\u003e /usr/bin/python3 -u offline.py --data /kaggle/tmp/d/ATML-PA3-Data --meta /kaggle/tmp/d/testmini.json --out /kaggle/working/out\n"}
+,{"stream_name":"stderr","time":119.080710739,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":124.191201319,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":129.328187734,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":134.420043513,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":139.6174678,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":144.766492387,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":149.945702487,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":154.973636314,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":159.996786192,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":165.019709589,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":170.261004368,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":175.495836125,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":180.756973351,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":185.91482089,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":191.320251041,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":196.346269055,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":201.497450562,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":206.603936467,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":211.767768539,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":216.822817403,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":221.953182928,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":227.001391993,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":232.010209207,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":237.01906301,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":242.027936681,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":247.03733309,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":252.115234859,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":257.123886935,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":262.157320319,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":267.157709514,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":272.166801642,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":277.175712624,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":282.18415933,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":287.231865366,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":292.382222893,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":297.565238435,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":302.628876285,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":307.695039317,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":312.841758277,"data":"Timeout during comparison\n"}
+,{"stream_name":"stderr","time":317.914876141,"data":"Timeout during comparison\n"}
+,{"stream_name":"stdout","time":318.900612615,"data":"math {\"alignment\": {\"generated_token_ids\": true, \"logp\": true, \"kl_u_p\": true}, \"rows\": 32000, \"load_group_seconds\": 275.89781737327576, \"missing_extraction\": 521, \"no_answer_after_norm\": 521, \"capped\": 523, \"zero_length\": 0, \"rollout_correct_rate\": 0.66315625}\n"}
+,{"stream_name":"stdout","time":318.988002992,"data":"math 0 276s\n"}
+,{"stream_name":"stdout","time":324.751230337,"data":"math 200 282s\n"}
+,{"stream_name":"stdout","time":331.00334651,"data":"math 400 288s\n"}
+,{"stream_name":"stdout","time":336.729453448,"data":"math 600 294s\n"}
+,{"stream_name":"stdout","time":342.114003793,"data":"math 800 299s\n"}
+,{"stream_name":"stdout","time":350.742791935,"data":"math adaptive {\"dev_fixed32_acc\": 0.825, \"chosen\": {\"agreement\": {\"family\": \"agreement\", \"tau\": 0.625, \"gamma\": null, \"dev_acc\": 0.8260000000000001, \"dev_cost\": 7088.955499999999}, \"quality\": {\"family\": \"quality\", \"tau\": 0.5, \"gamma\": 0.0, \"dev_acc\": 0.8215, \"dev_cost\": 5479.528499999999}}}\n"}
+,{"stream_name":"stdout","time":354.889400634,"data":"mathvista {\"alignment\": {\"generated_token_ids\": true, \"logp\": true, \"kl_u_p\": true, \"img_attn_total\": true, \"prompt_text_attn_total\": true, \"generated_text_attn_total\": true, \"n_generated_text_tokens_att\": true, \"att_prefix_counts_0..T-1\": true}, \"rows\": 32000, \"load_group_seconds\": 3.8082573413848877, \"missing_extraction\": 3032, \"no_answer_after_norm\": 4129, \"capped\": 487, \"zero_length\": 0, \"rollout_correct_rate\": 0.544125, \"unparsable_dev_examples\": [\"15-20 years\", \"10-20 years\", \"10-15 years\", \"40-50\", \"20-30\", \"20-30\", \"1-2\", \"10-15 years\", \"5-10\", \"10-15 years\", \"0-5 years\", \"5-10 years\", \"10-20\", \"10-15 years\", \"10-15 years\", \"10-20 years\", \"10-15 years\", \"10-15 years\", \"several decades\", \"30-40 years\", \"\\\\text{Significant (several years)}\", \"10-15 years\", \"10-15 years\", \"10-15\", \"10-15 years\", \"10-20 years\", \"5-10 years\", \"10-15 years\", \"Several years to a decade or more\", \"20-30 years\", \"10-20\", \"30-40\", \"30-40 years\", \"30-40 years\", \"\\\\text{The age gap is significant, with the person on the right being significantly younger than the person on the left.}\", \"10-20\", \"\\\\text{Not enough information}\", \"5-10\", \"\\\\text{Not possible to determine}\", \"5 \\\\text{ to } 10\"], \"unparsable_total\": 1097}\n"}
+,{"stream_name":"stdout","time":355.120706377,"data":"mathvista 0 4s\n"}
+,{"stream_name":"stdout","time":384.306697107,"data":"mathvista 200 33s\n"}
+,{"stream_name":"stdout","time":413.342842262,"data":"mathvista 400 62s\n"}
+,{"stream_name":"stdout","time":442.556569029,"data":"mathvista 600 92s\n"}
+,{"stream_name":"stdout","time":472.741449035,"data":"mathvista 800 122s\n"}
+,{"stream_name":"stdout","time":507.968610401,"data":"mathvista adaptive {\"dev_fixed32_acc\": 0.6425, \"chosen\": {\"agreement\": {\"family\": \"agreement\", \"tau\": 0.5, \"gamma\": null, \"dev_acc\": 0.6365, \"dev_cost\": 3576.802}, \"quality\": {\"family\": \"quality\", \"tau\": 0.5, \"gamma\": 0.0, \"dev_acc\": 0.64, \"dev_cost\": 3977.5745}}}\n"}
+,{"stream_name":"stdout","time":508.274129366,"data":"offline done\n"}
+,{"stream_name":"stdout","time":508.963983133,"data":"\u003c\u003c 0\n"}
+,{"stream_name":"stdout","time":508.964022838,"data":"offline exit 0 473.6946792602539\n"}
+,{"stream_name":"stderr","time":511.508232524,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":511.508313703,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":511.908813117,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":511.908863023,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":513.197171401,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":514.612845402,"data":"[NbConvertApp] Writing 325470 bytes to __results__.html\n"}
+]

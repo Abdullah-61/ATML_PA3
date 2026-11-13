@@ -1,0 +1,19 @@
+{
+ "dev_fixed32_acc": 0.825,
+ "chosen": {
+  "agreement": {
+   "family": "agreement",
+   "tau": 0.625,
+   "gamma": null,
+   "dev_acc": 0.8260000000000001,
+   "dev_cost": 7088.955499999999
+  },
+  "quality": {
+   "family": "quality",
+   "tau": 0.5,
+   "gamma": 0.0,
+   "dev_acc": 0.8215,
+   "dev_cost": 5479.528499999999
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "model": "Qwen/Qwen2.5-3B-Instruct",
+ "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+ "dtype": "float16",
+ "batch_size": 1,
+ "gpu": "Tesla T4",
+ "torch": "2.11.0+cu128",
+ "transformers": "5.16.1",
+ "eos_ids": [
+  151643,
+  151645
+ ],
+ "sampling": {
+  "do_sample": true,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "repetition_penalty": 1.0
+ },
+ "caps": {
+  "single": 3072,
+  "parallel": 1024,
+  "refine": 2048
+ },
+ "questions": [
+  "test:274",
+  "test:916",
+  "test:534",
+  "test:2177",
+  "test:1043",
+  "test:373",
+  "test:1379",
+  "test:196",
+  "test:2134",
+  "test:771",
+  "test:3572",
+  "test:2358",
+  "test:2019",
+  "test:4144",
+  "test:3314",
+  "test:3239",
+  "test:4678",
+  "test:1122",
+  "test:4168",
+  "test:1300",
+  "test:4516",
+  "test:1903",
+  "test:1916",
+  "test:3409",
+  "test:3617"
+ ]
+}

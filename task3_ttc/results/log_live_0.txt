@@ -1,0 +1,29 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:14<00:14, 14.51s/it]Fetching 2 files: 100%|██████████| 2/2 [00:30<00:00, 15.22s/it]Fetching 2 files: 100%|██████████| 2/2 [00:30<00:00, 15.11s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:02<15:13,  2.11s/it]Loading weights:  34%|███▍      | 147/434 [00:02<00:03, 88.90it/s]Loading weights:  45%|████▌     | 197/434 [00:02<00:02, 83.64it/s]Loading weights:  53%|█████▎    | 228/434 [00:03<00:02, 87.16it/s]Loading weights:  58%|█████▊    | 251/434 [00:03<00:02, 82.44it/s]Loading weights:  62%|██████▏   | 268/434 [00:03<00:02, 79.96it/s]Loading weights:  65%|██████▍   | 282/434 [00:04<00:01, 80.89it/s]Loading weights:  68%|██████▊   | 294/434 [00:04<00:01, 80.45it/s]Loading weights:  70%|███████   | 305/434 [00:04<00:01, 81.73it/s]Loading weights:  73%|███████▎  | 316/434 [00:04<00:01, 76.42it/s]Loading weights:  76%|███████▌  | 328/434 [00:04<00:01, 82.98it/s]Loading weights:  78%|███████▊  | 339/434 [00:04<00:01, 79.87it/s]Loading weights:  81%|████████  | 351/434 [00:04<00:00, 83.76it/s]Loading weights:  84%|████████▎ | 363/434 [00:04<00:00, 89.93it/s]Loading weights:  86%|████████▋ | 375/434 [00:05<00:00, 84.70it/s]Loading weights:  89%|████████▉ | 387/434 [00:05<00:00, 80.09it/s]Loading weights:  92%|█████████▏| 399/434 [00:05<00:00, 74.79it/s]Loading weights:  95%|█████████▍| 412/434 [00:05<00:00, 72.94it/s]Loading weights: 100%|██████████| 434/434 [00:05<00:00, 75.69it/s]
+done test:943
+done test:2688
+done test:3504
+done test:4335
+done test:2460
+done test:1324
+done test:2340
+done test:1577
+done test:639
+done test:2892
+done test:4702
+done test:1709
+done test:4041
+done test:2119
+done test:2087
+done test:4549
+done test:2732
+done test:1433
+done test:3285
+done test:29
+done test:2948
+done test:1997
+done test:414
+done test:1808
+done test:4962
+live done
