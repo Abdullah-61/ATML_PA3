@@ -1,0 +1,31 @@
+{
+ "results": {
+  "boolq": {
+   "name": "boolq",
+   "alias": "boolq",
+   "sample_len": 3270,
+   "acc,none": 0.554434250764526,
+   "acc_stderr,none": 0.008693075769446909
+  }
+ },
+ "config": {
+  "model": "hf",
+  "model_args": "pretrained=/tmp/pa3_out/runs/full/export_final,tokenizer=/tmp/pa3_out/tok_nothink,dtype=float16",
+  "model_num_parameters": 596049920,
+  "model_dtype": "torch.float16",
+  "model_revision": "main",
+  "model_sha": "",
+  "batch_size": 8,
+  "batch_sizes": [],
+  "device": null,
+  "use_cache": null,
+  "limit": null,
+  "bootstrap_iters": 100000,
+  "gen_kwargs": null,
+  "random_seed": 6304,
+  "numpy_seed": 6304,
+  "torch_seed": 6304,
+  "fewshot_seed": 6304
+ },
+ "n_samples": 3270
+}

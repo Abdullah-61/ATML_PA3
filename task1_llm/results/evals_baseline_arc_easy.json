@@ -1,0 +1,33 @@
+{
+ "results": {
+  "arc_easy": {
+   "name": "arc_easy",
+   "alias": "arc_easy",
+   "sample_len": 2376,
+   "acc,none": 0.609006734006734,
+   "acc_stderr,none": 0.010012992232540683,
+   "acc_norm,none": 0.5606060606060606,
+   "acc_norm_stderr,none": 0.010184134315437384
+  }
+ },
+ "config": {
+  "model": "hf",
+  "model_args": "pretrained=Qwen/Qwen3-0.6B,tokenizer=/kaggle/working/out/tok_nothink,dtype=float16",
+  "model_num_parameters": 596049920,
+  "model_dtype": "torch.float16",
+  "model_revision": "main",
+  "model_sha": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "batch_size": 8,
+  "batch_sizes": [],
+  "device": null,
+  "use_cache": null,
+  "limit": null,
+  "bootstrap_iters": 100000,
+  "gen_kwargs": null,
+  "random_seed": 6304,
+  "numpy_seed": 6304,
+  "torch_seed": 6304,
+  "fewshot_seed": 6304
+ },
+ "n_samples": 2376
+}

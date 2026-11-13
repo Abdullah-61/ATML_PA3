@@ -1,0 +1,51 @@
+{
+ "baseline": {
+  "truncated": 1,
+  "json_valid": 8,
+  "math_framing": 0,
+  "rep4": 0.053942918971399446,
+  "mean_tokens": 102.66666666666667
+ },
+ "full_mid": {
+  "truncated": 4,
+  "json_valid": 2,
+  "math_framing": 14,
+  "rep4": 0.3020594982220635,
+  "mean_tokens": 184.125
+ },
+ "full": {
+  "truncated": 4,
+  "json_valid": 2,
+  "math_framing": 14,
+  "rep4": 0.210947927396868,
+  "mean_tokens": 165.04166666666666
+ },
+ "l2sp": {
+  "truncated": 5,
+  "json_valid": 3,
+  "math_framing": 13,
+  "rep4": 0.19180508495226758,
+  "mean_tokens": 190.58333333333334
+ },
+ "lora4": {
+  "truncated": 2,
+  "json_valid": 3,
+  "math_framing": 3,
+  "rep4": 0.128924710213558,
+  "mean_tokens": 114.20833333333333
+ },
+ "lora16": {
+  "truncated": 5,
+  "json_valid": 3,
+  "math_framing": 6,
+  "rep4": 0.20631294228863195,
+  "mean_tokens": 171.20833333333334
+ },
+ "oplora": {
+  "truncated": 4,
+  "json_valid": 3,
+  "math_framing": 6,
+  "rep4": 0.18801485345974847,
+  "mean_tokens": 160.91666666666666
+ }
+}
